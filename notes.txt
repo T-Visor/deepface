@@ -1,0 +1,4 @@
+https://pythonexamples.org/python-pillow-adjust-image-sharpness/
+
+In addition, look into sharpening images for preprocessing along with
+randomization
