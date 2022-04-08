@@ -3,3 +3,4 @@ numpy
 matplotlib
 mtcnn
 tensorflow
+deepface
