@@ -21,10 +21,11 @@ def main():
     print(source_image)
 
 
-    #df = DeepFace.find(img_path = "",
-    #                   db_path = "",
-    #                   detector_backend = backends[3])
-    #print(df.to_string())
+    df = DeepFace.find(img_path = source_image,
+                       db_path = database_path,
+                       enforce_detection = False,
+                       detector_backend = backends[3])
+    print(df.to_string())
 
 
 
