@@ -5,6 +5,7 @@ from deepface import DeepFace
 from matplotlib import pyplot
 import sys
 import argparse
+import os
 
 
 
@@ -25,7 +26,20 @@ def main():
                        db_path = database_path,
                        enforce_detection = False,
                        detector_backend = backends[3])
-    print(df.to_string())
+
+    # Get the first value under the 'identity' column.
+    closest_identity_file = df['identity'].iloc[0]
+
+    # Extract the base file name.
+    closest_identity_file = os.path.basename(str(closest_identity_file))
+
+    # Remove the file extension.
+    closest_identity_file = os.path.splitext(closest_identity_file)[0]
+
+    print(closest_identity_file)
+
+    #res = closest_identity_file.rpartition('jpg')[0]
+    #print(str(res))
 
 
 
