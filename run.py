@@ -7,6 +7,9 @@ import sys
 import argparse
 import os
 
+backends = ['opencv', 'ssd', 'dlib', 'mtcnn', 'retinaface', 'mediapipe']
+models = ["VGG-Face", "Facenet", "Facenet512", "OpenFace", "DeepFace", "DeepID", "ArcFace", "Dlib"]
+
 
 
 
@@ -17,9 +20,6 @@ def main():
 
         NOTE: This has only been tested on using the FaceScrub dataset.
     """
-    backends = ['opencv', 'ssd', 'dlib', 'mtcnn', 'retinaface', 'mediapipe']
-    models = ["VGG-Face", "Facenet", "Facenet512", "OpenFace", "DeepFace", "DeepID", "ArcFace", "Dlib"]
-
     arguments = parse_command_line_arguments()
     source_image = arguments.source_image[0]
     database_path = arguments.database_path[0]
