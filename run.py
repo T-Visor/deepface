@@ -81,6 +81,10 @@ def extract_label(filename) -> str:
     # Remove the file extension.
     filename = os.path.splitext(filename)[0]
 
+    # Handles Lowkey perturbated images.
+    if ('_attacked' in filename):
+        filename = filename.rpartition('.')[0]
+
     # Remove the identifier
     filename = filename.rpartition('_')[0]
 
