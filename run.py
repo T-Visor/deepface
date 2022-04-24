@@ -14,6 +14,8 @@ def main():
     """
         Evaluate facial recognition performance
         using Top-1 accuracy.
+
+        NOTE: This has only been tested on using the FaceScrub dataset.
     """
     backends = ['opencv', 'ssd', 'dlib', 'mtcnn', 'retinaface', 'mediapipe']
     models = ["VGG-Face", "Facenet", "Facenet512", "OpenFace", "DeepFace", "DeepID", "ArcFace", "Dlib"]
@@ -80,6 +82,10 @@ def extract_label(filename) -> str:
 
     # Remove the file extension.
     filename = os.path.splitext(filename)[0]
+
+    # Handles Fawkes perturbated images.
+    if ('_cloaked' in filename):
+        filename = filename.rpartition('_')[0]
 
     # Handles Lowkey perturbated images.
     if ('_attacked' in filename):
