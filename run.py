@@ -11,16 +11,16 @@ import os
 
 
 def main():
-    # Optional arguments for DeepFace.
+    """
+        Evaluate facial recognition performance
+        using Top-1 accuracy.
+    """
     backends = ['opencv', 'ssd', 'dlib', 'mtcnn', 'retinaface', 'mediapipe']
     models = ["VGG-Face", "Facenet", "Facenet512", "OpenFace", "DeepFace", "DeepID", "ArcFace", "Dlib"]
 
     arguments = parse_command_line_arguments()
     source_image = arguments.source_image[0]
     database_path = arguments.database_path[0]
-
-    print(source_image)
-
 
     df = DeepFace.find(img_path = source_image,
                        db_path = database_path,
@@ -30,28 +30,24 @@ def main():
     # Get the first value under the 'identity' column.
     closest_identity_file = df['identity'].iloc[0]
 
-    # Extract the base file name.
-    closest_identity_file = os.path.basename(str(closest_identity_file))
+    predicted_label = extract_label(str(closest_identity_file))
+    true_label = extract_label(source_image)
 
-    # Remove the file extension.
-    closest_identity_file = os.path.splitext(closest_identity_file)[0]
-
-    print(closest_identity_file)
-
-    #res = closest_identity_file.rpartition('jpg')[0]
-    #print(str(res))
+    print('Top 1 Accuracy', end=', ')
+    print('predicted:', predicted_label, end=', ')
+    print('true label:', true_label)
 
 
 
 
-def parse_command_line_arguments():
+def parse_command_line_arguments() -> argparse.ArgumentParser:
     """ 
         Parse the arguments from the command-line.
         If no arguments are passed, the help screen will
         be shown and the program will be terminated.
 
     Returns:
-        the parser with command-line arguments
+        (ArgumentParser): the parser with command-line arguments
     """
     parser = argparse.ArgumentParser()
 
@@ -67,6 +63,28 @@ def parse_command_line_arguments():
         sys.exit()
 
     return parser.parse_args()
+
+
+
+
+def extract_label(filename) -> str:
+    """
+    Args:
+        filename (str): the filename to extract the label from
+
+    Returns:
+        (str): the label extracted from a given filename
+    """
+    # Extract the base file name.
+    filename = os.path.basename(filename)
+
+    # Remove the file extension.
+    filename = os.path.splitext(filename)[0]
+
+    # Remove the identifier
+    filename = filename.rpartition('_')[0]
+
+    return filename
 
 
 

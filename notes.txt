@@ -3,3 +3,8 @@ https://www.analyticsvidhya.com/blog/2021/08/sharpening-an-image-using-opencv-li
 
 In addition, look into sharpening images for preprocessing along with
 randomization
+
+3 cases for evaluation metrics:
+- Fawkes image as input
+- Lowkey image as input
+- Unperturbed image as input
