@@ -35,9 +35,20 @@ def main():
     predicted_label = extract_label(str(closest_identity_file))
     true_label = extract_label(source_image)
 
-    print('Top 1 Accuracy', end=', ')
-    print('predicted:', predicted_label, end=', ')
+    file1 = open("sample.txt", "w")  # write mode
+
+    file1.write('=============================================\n')
+    file1.write('source image: ' + os.path.basename(source_image) + '\n')
+
+    print('predicted:', predicted_label, end=' \n')
+    file1.write('predicted: ' + predicted_label + ' \n')
+
     print('true label:', true_label)
+    file1.write('true label: ' + true_label + '\n')
+
+    file1.write('=============================================\n')
+
+    file1.close()
 
 
 

@@ -7,6 +7,7 @@ from pathlib import Path
 
 
 
+
 source_directory = 'images/lowkey-imgs'
 results = [os.path.join(dp, f) for dp, dn, fn in os.walk(source_directory) for f in fn]
 
