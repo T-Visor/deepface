@@ -35,20 +35,19 @@ def main():
     predicted_label = extract_label(str(closest_identity_file))
     true_label = extract_label(source_image)
 
-    file1 = open("sample.txt", "w")  # write mode
+    # Write results to a text file.
+    out_file = open("sample.txt", "w")
+    out_file.write('=============================================\n')
+    out_file.write('source image: ' + os.path.basename(source_image) + '\n')
+    out_file.write('predicted: ' + predicted_label + ' \n')
+    out_file.write('true label: ' + true_label + '\n')
+    out_file.write('=============================================\n')
+    out_file.close()
 
-    file1.write('=============================================\n')
-    file1.write('source image: ' + os.path.basename(source_image) + '\n')
-
-    print('predicted:', predicted_label, end=' \n')
-    file1.write('predicted: ' + predicted_label + ' \n')
-
-    print('true label:', true_label)
-    file1.write('true label: ' + true_label + '\n')
-
-    file1.write('=============================================\n')
-
-    file1.close()
+    if predicted_label == true_label:
+        sys.exit(1)
+    else:
+        sys.exit(0)
 
 
 
