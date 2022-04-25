@@ -8,7 +8,7 @@ import argparse
 import os
 
 backends = ['opencv', 'ssd', 'dlib', 'mtcnn', 'retinaface', 'mediapipe']
-models = ["VGG-Face", "Facenet", "Facenet512", "OpenFace", "DeepFace", "DeepID", "ArcFace", "Dlib"]
+models = ['VGG-Face', 'Facenet', 'Facenet512', 'OpenFace', 'DeepFace', 'DeepID', 'ArcFace', 'Dlib']
 
 
 
@@ -36,7 +36,7 @@ def main():
     true_label = extract_label(source_image)
 
     # Write results to a text file.
-    out_file = open("sample.txt", "w")
+    out_file = open('sample.txt', 'a')
     out_file.write('=============================================\n')
     out_file.write('source image: ' + os.path.basename(source_image) + '\n')
     out_file.write('predicted: ' + predicted_label + ' \n')
