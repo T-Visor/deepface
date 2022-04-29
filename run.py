@@ -25,7 +25,7 @@ def main():
     database_path = arguments.database_path[0]
 
     identities = []
-    fileIDs = []
+    predicted_fileIDs = []
     predicted_labels = []
 
     results_dataframe = DeepFace.find(img_path = source_image,
@@ -37,15 +37,43 @@ def main():
     for i, row in results_dataframe.iloc[:4].iterrows():
         identities.append(row['identity'])
 
-    for identity in identities:
-        fileIDs.append(extract_unique_fileID(str(identity)))
-        predicted_labels.append(extract_label(str(identity)))
+    # Extract labels and file IDs.
+    #for identity in identities:
+    #    predicted_fileIDs.append(extract_unique_fileID(str(identity)))
+    #    predicted_labels.append(extract_label(str(identity)))
 
-    for fileID in fileIDs:
-        print(fileID)
+    predicted_labels, predicted_fileIDs = get_labels_and_fileIDs(identities)
+
+    # Extract label and file ID from source image.
+    true_label = extract_label(source_image)
+    source_fileID = extract_unique_fileID(source_image)
+
+    print(source_image, "\n")
+
+    for identity in identities:
+        print(identity)
+
+    # TODO: remove entry from all predicted lists if a duplicate is found
+    if source_fileID in predicted_fileIDs:
+        print('source file in dataset')
+
+        # Find the list element to remove
+        for i in range(len(predicted_fileIDs)):
+            if predicted_fileIDs[i] == source_fileID:
+                identities.pop(i)
+
+        predicted_labels, predicted_fileIDs = get_labels_and_fileIDs(identities)
+    else:
+        print('good to go')
 
     for label in predicted_labels:
         print(label)
+
+    if true_label in predicted_labels:
+        print('Made correct prediction!')
+    else:
+        print('Model mispredicted.')
+
 
 
     #predicted_label = extract_unique_fileID(str(closest_identity_file))
@@ -94,6 +122,19 @@ def parse_command_line_arguments() -> argparse.ArgumentParser:
         sys.exit()
 
     return parser.parse_args()
+
+
+
+def get_labels_and_fileIDs(identities) -> tuple[list, list]:
+    predicted_fileIDs = []
+    predicted_labels = []
+
+    # Extract labels and file IDs.
+    for identity in identities:
+        predicted_fileIDs.append(extract_unique_fileID(str(identity)))
+        predicted_labels.append(extract_label(str(identity)))
+
+    return predicted_labels, predicted_fileIDs
 
 
 
