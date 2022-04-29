@@ -21,9 +21,11 @@ def main():
         NOTE: This has only been tested on using the FaceScrub dataset.
     """
     arguments = parse_command_line_arguments()
+
     source_image = arguments.source_image[0]
     database_path = arguments.database_path[0]
     k_value = arguments.k_value[0]
+    output_file = arguments.output_file[0]
 
     identities = []
 
@@ -60,7 +62,7 @@ def main():
         outcome = "INCORRECT"
 
     # Write results to a text file.
-    out_file = open('sample.txt', 'a')
+    out_file = open(output_file, 'a')
     out_file.write('=============================================\n')
     out_file.write('source image: ' + os.path.basename(source_image) + '\n')
     out_file.write('predicted: ' + str(predicted_labels) + ' \n')
@@ -96,6 +98,9 @@ def parse_command_line_arguments() -> argparse.ArgumentParser:
 
     parser.add_argument('-k', '--k_value', type=int, nargs=1, required=True,
                         help='Determines the value used for Top-K Accuracy.')
+
+    parser.add_argument('-o', '--output_file', nargs=1, required=True,
+                        help='Output file to write accuracy results to (Ex. "output.txt")')
 
     # if no arguments were passed, show the help screen
     if len(sys.argv) == 1:
