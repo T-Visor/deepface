@@ -24,30 +24,33 @@ def main():
     source_image = arguments.source_image[0]
     database_path = arguments.database_path[0]
 
-    df = DeepFace.find(img_path = source_image,
-                       db_path = database_path,
-                       enforce_detection = False,
-                       detector_backend = backends[3])
+    results_dataframe = DeepFace.find(img_path = source_image,
+                        db_path = database_path,
+                        enforce_detection = False,
+                        detector_backend = backends[3])
 
     # Get the first value under the 'identity' column.
-    closest_identity_file = df['identity'].iloc[0]
+    closest_identity_file = results_dataframe['identity'].iloc[0]
 
-    predicted_label = extract_label(str(closest_identity_file))
-    true_label = extract_label(source_image)
+    predicted_label = check_same_file(str(closest_identity_file))
+    true_label = check_same_file(source_image)
+
+    print(predicted_label)
+    print(true_label)
 
     # Write results to a text file.
-    out_file = open('sample.txt', 'a')
-    out_file.write('=============================================\n')
-    out_file.write('source image: ' + os.path.basename(source_image) + '\n')
-    out_file.write('predicted: ' + predicted_label + ' \n')
-    out_file.write('true label: ' + true_label + '\n')
-    out_file.write('=============================================\n')
-    out_file.close()
+    #out_file = open('sample.txt', 'a')
+    #out_file.write('=============================================\n')
+    #out_file.write('source image: ' + os.path.basename(source_image) + '\n')
+    #out_file.write('predicted: ' + predicted_label + ' \n')
+    #out_file.write('true label: ' + true_label + '\n')
+    #out_file.write('=============================================\n')
+    #out_file.close()
 
-    if predicted_label == true_label:
-        sys.exit(1)
-    else:
-        sys.exit(0)
+    #if predicted_label == true_label:
+    #    sys.exit(1)
+    #else:
+    #    sys.exit(0)
 
 
 
@@ -59,7 +62,7 @@ def parse_command_line_arguments() -> argparse.ArgumentParser:
         be shown and the program will be terminated.
 
     Returns:
-        (ArgumentParser): the parser with command-line arguments
+        (argparse.ArgumentParser): the parser with command-line arguments
     """
     parser = argparse.ArgumentParser()
 
@@ -85,7 +88,19 @@ def extract_label(filename) -> str:
         filename (str): the filename to extract the label from
 
     Returns:
-        (str): the label extracted from a given filename
+        (str): the label extracted from the given filename
+    """
+    directory_name = os.path.dirname(filename)
+    label = os.path.basename(directory_name)
+    return label
+
+
+
+
+def check_same_file(filename):
+    """
+    Args:
+        filename (str): the filename to extract the label from
     """
     # Extract the base file name.
     filename = os.path.basename(filename)
@@ -102,7 +117,7 @@ def extract_label(filename) -> str:
         filename = filename.rpartition('.')[0]
 
     # Remove the identifier
-    filename = filename.rpartition('_')[0]
+    #filename = filename.rpartition('_')[0]
 
     return filename
 
