@@ -24,19 +24,35 @@ def main():
     source_image = arguments.source_image[0]
     database_path = arguments.database_path[0]
 
+    identities = []
+    fileIDs = []
+    predicted_labels = []
+
     results_dataframe = DeepFace.find(img_path = source_image,
                         db_path = database_path,
                         enforce_detection = False,
                         detector_backend = backends[3])
 
-    # Get the first value under the 'identity' column.
-    closest_identity_file = results_dataframe['identity'].iloc[0]
+    # Get the first 'K' results from the facial recognition system.
+    for i, row in results_dataframe.iloc[:4].iterrows():
+        identities.append(row['identity'])
 
-    predicted_label = check_same_file(str(closest_identity_file))
-    true_label = check_same_file(source_image)
+    for identity in identities:
+        fileIDs.append(extract_unique_fileID(str(identity)))
+        predicted_labels.append(extract_label(str(identity)))
 
-    print(predicted_label)
-    print(true_label)
+    for fileID in fileIDs:
+        print(fileID)
+
+    for label in predicted_labels:
+        print(label)
+
+
+    #predicted_label = extract_unique_fileID(str(closest_identity_file))
+    #true_label = extract_unique_fileID(source_image)
+
+    #print(predicted_label)
+    #print(true_label)
 
     # Write results to a text file.
     #out_file = open('sample.txt', 'a')
@@ -97,7 +113,7 @@ def extract_label(filename) -> str:
 
 
 
-def check_same_file(filename):
+def extract_unique_fileID(filename):
     """
     Args:
         filename (str): the filename to extract the label from
@@ -115,9 +131,6 @@ def check_same_file(filename):
     # Handles Lowkey perturbated images.
     if ('_attacked' in filename):
         filename = filename.rpartition('.')[0]
-
-    # Remove the identifier
-    #filename = filename.rpartition('_')[0]
 
     return filename
 
