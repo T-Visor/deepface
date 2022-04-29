@@ -23,10 +23,9 @@ def main():
     arguments = parse_command_line_arguments()
     source_image = arguments.source_image[0]
     database_path = arguments.database_path[0]
+    k_value = arguments.k_value[0]
 
     identities = []
-    predicted_fileIDs = []
-    predicted_labels = []
 
     results_dataframe = DeepFace.find(img_path = source_image,
                         db_path = database_path,
@@ -34,28 +33,19 @@ def main():
                         detector_backend = backends[3])
 
     # Get the first 'K' results from the facial recognition system.
-    for i, row in results_dataframe.iloc[:4].iterrows():
+    for i, row in results_dataframe.iloc[:k_value].iterrows():
         identities.append(row['identity'])
 
-    # Extract labels and file IDs.
-    #for identity in identities:
-    #    predicted_fileIDs.append(extract_unique_fileID(str(identity)))
-    #    predicted_labels.append(extract_label(str(identity)))
-
+    # Get labels and file IDs from the first 'K' results.
     predicted_labels, predicted_fileIDs = get_labels_and_fileIDs(identities)
 
     # Extract label and file ID from source image.
     true_label = extract_label(source_image)
     source_fileID = extract_unique_fileID(source_image)
 
-    print(source_image, "\n")
-
-    for identity in identities:
-        print(identity)
-
-    # TODO: remove entry from all predicted lists if a duplicate is found
     if source_fileID in predicted_fileIDs:
-        print('source file in dataset')
+        print('Source file in DB_PATH')
+        print('Removing entry from results of facial recognition.')
 
         # Find the list element to remove
         for i in range(len(predicted_fileIDs)):
@@ -63,38 +53,26 @@ def main():
                 identities.pop(i)
 
         predicted_labels, predicted_fileIDs = get_labels_and_fileIDs(identities)
-    else:
-        print('good to go')
-
-    for label in predicted_labels:
-        print(label)
 
     if true_label in predicted_labels:
-        print('Made correct prediction!')
+        outcome = "CORRECT"
     else:
-        print('Model mispredicted.')
-
-
-
-    #predicted_label = extract_unique_fileID(str(closest_identity_file))
-    #true_label = extract_unique_fileID(source_image)
-
-    #print(predicted_label)
-    #print(true_label)
+        outcome = "INCORRECT"
 
     # Write results to a text file.
-    #out_file = open('sample.txt', 'a')
-    #out_file.write('=============================================\n')
-    #out_file.write('source image: ' + os.path.basename(source_image) + '\n')
-    #out_file.write('predicted: ' + predicted_label + ' \n')
-    #out_file.write('true label: ' + true_label + '\n')
-    #out_file.write('=============================================\n')
-    #out_file.close()
+    out_file = open('sample.txt', 'a')
+    out_file.write('=============================================\n')
+    out_file.write('source image: ' + os.path.basename(source_image) + '\n')
+    out_file.write('predicted: ' + str(predicted_labels) + ' \n')
+    out_file.write('true label: ' + true_label + '\n')
+    out_file.write('Result: ' + outcome + '\n')
+    out_file.write('=============================================\n')
+    out_file.close()
 
-    #if predicted_label == true_label:
-    #    sys.exit(1)
-    #else:
-    #    sys.exit(0)
+    if true_label in predicted_labels:
+        sys.exit(1)
+    else:
+        sys.exit(0)
 
 
 
@@ -115,6 +93,9 @@ def parse_command_line_arguments() -> argparse.ArgumentParser:
 
     parser.add_argument('-d', '--database_path', nargs=1, required=True, 
                         help='Dataset of images containing faces.')
+
+    parser.add_argument('-k', '--k_value', type=int, nargs=1, required=True,
+                        help='Determines the value used for Top-K Accuracy.')
 
     # if no arguments were passed, show the help screen
     if len(sys.argv) == 1:
