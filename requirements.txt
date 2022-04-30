@@ -1,7 +1,3 @@
-Pillow
-numpy
-matplotlib
-mtcnn
 tensorflow
 deepface
 tqdm
