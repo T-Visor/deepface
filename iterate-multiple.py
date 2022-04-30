@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import argparse
 import sys
 import subprocess
 import os
@@ -20,18 +21,30 @@ def main():
     source_images_count = len(results)
     correct_predictions = 0
 
-    # Create a blank file
-    open(output_file, mode='w').close()
+    # Create a new file with the accuracy metric displayed.
+    out_file = open(output_file, mode='w')
+    out_file.write('-------------------------------\n')
+    out_file.write('TOP ' + str(k_value) + ' ACCURACY\n')
+    out_file.write('-------------------------------\n')
+    out_file.close()
 
+    count = 1
     with tqdm(total=source_images_count) as progress_bar:
         for item in results:
-            returned = subprocess.call([sys.executable, 'run.py', '-s', item, '-d', database_path, '-k', k_value, '-o', output_file])
+            out_file = open(output_file, mode='a')
+            out_file.write('\n' + str(count) + '.\n')
+            out_file.close()
+
+            correct_predictions += subprocess.call([sys.executable, 'run.py', '-s', item, '-d', database_path, '-k', str(k_value), '-o', output_file])
+
+            count += 1
             progress_bar.update(1)
 
     out_file = open(output_file, mode='a')
     percentage = round(100 * float(correct_predictions) / float(source_images_count))
     percentage = str(percentage) + '%'
     out_file.write('\nAccuracy: ' + str(correct_predictions) + '/' + str(source_images_count) + ' (' + percentage + ')')
+    out_file.close()
 
 
 
