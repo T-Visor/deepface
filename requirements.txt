@@ -4,3 +4,4 @@ matplotlib
 mtcnn
 tensorflow
 deepface
+tqdm
