@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
+import random
 import sys
 import subprocess
 import os
@@ -17,9 +18,16 @@ def main():
     k_value = arguments.k_value[0]
     output_file = arguments.output_file[0]
 
-    results = [os.path.join(dp, f) for dp, dn, fn in os.walk(source_directory) for f in fn]
+    #results = [os.path.join(dp, f) for dp, dn, fn in os.walk(source_directory) for f in fn]
+    results = get_an_image_from_each_class(source_directory)
     source_images_count = len(results)
     correct_predictions = 0
+
+    # Display the source files.
+    print('------------------------SOURCE FILES------------------------')
+    for image in results:
+        print(image)
+    print('----------------------------------------------------------\n')
 
     # Create a new file with the accuracy metric displayed.
     out_file = open(output_file, mode='w')
@@ -78,6 +86,19 @@ def parse_command_line_arguments() -> argparse.ArgumentParser:
         sys.exit()
 
     return parser.parse_args()
+
+
+
+
+def get_an_image_from_each_class(source_directory):
+    selected_images = []
+
+    for root, directories, files in os.walk(source_directory):
+        if not files:
+            continue
+        selected_images.append(str(root) + '/' + random.choice(files))
+
+    return selected_images
 
 
 
