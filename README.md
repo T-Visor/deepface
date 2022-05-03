@@ -67,7 +67,7 @@ Result: CORRECT
 Accuracy: 1/3 (33%)
 ```
 
-## Deepface Output Without Top-K Accuracy
+## Example Output Without Top-K Accuracy
 ```
                                             identity  VGG-Face_cosine
 0  images/original-images/Hugh_Jackman/Hugh_Jackm...         0.278785
