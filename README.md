@@ -66,3 +66,15 @@ Result: CORRECT
 
 Accuracy: 1/3 (33%)
 ```
+
+## Deepface Output Without Top-K Accuracy
+```
+                                            identity  VGG-Face_cosine
+0  images/original-images/Hugh_Jackman/Hugh_Jackm...         0.278785
+1  images/original-images/Eric_Dane/Eric_Dane_365...         0.282408
+2  images/original-images/Gerard_Butler/Gerard_Bu...         0.289872
+3  images/original-images/Freddy_Rodríguez/Freddy...         0.304297
+4  images/original-images/Billy_Boyd/Billy_Boyd_1...         0.307399
+
+Source image: George_Clooney_39923._attacked.png
+```
