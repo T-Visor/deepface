@@ -140,10 +140,13 @@ def extract_label(filename) -> str:
 
 
 
-def extract_unique_fileID(filename):
+def extract_unique_fileID(filename) -> str:
     """
     Args:
         filename (str): the filename to extract the label from
+
+    Returns:
+        (str): the extracted file identifier
     """
     # Extract the base file name.
     filename = os.path.basename(filename)
