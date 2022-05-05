@@ -16,9 +16,9 @@ def main():
     source_directory = arguments.source_directory[0]
     database_path = arguments.database_path[0]
     k_value = arguments.k_value[0]
+    model = arguments.model[0]
     output_file = arguments.output_file[0]
 
-    #results = [os.path.join(dp, f) for dp, dn, fn in os.walk(source_directory) for f in fn]
     results = get_an_image_from_each_class(source_directory)
     source_images_count = len(results)
     correct_predictions = 0
@@ -43,7 +43,7 @@ def main():
             out_file.write('\n' + str(count) + '.\n')
             out_file.close()
 
-            correct_predictions += subprocess.call([sys.executable, 'detect-face.py', '-s', item, '-d', database_path, '-k', str(k_value), '-o', output_file])
+            correct_predictions += subprocess.call([sys.executable, 'detect-face.py', '-s', item, '-d', database_path, '-k', str(k_value), '-m', model, '-o', output_file])
 
             count += 1
             progress_bar.update(1)
@@ -76,6 +76,9 @@ def parse_command_line_arguments() -> argparse.ArgumentParser:
 
     parser.add_argument('-k', '--k_value', type=int, nargs=1, required=True,
                         help='Determines the value used for Top-K Accuracy.')
+
+    parser.add_argument('-m', '--model', choices=['VGG-Face', 'Facenet512', 'ArcFace', 'Ensemble'], nargs=1, required=True,
+                        help='Face recognition model to use.')
 
     parser.add_argument('-o', '--output_file', nargs=1, required=True,
                         help='Output file to write accuracy results to (Ex. "output.txt")')

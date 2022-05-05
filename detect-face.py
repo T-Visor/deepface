@@ -8,7 +8,7 @@ import argparse
 import os
 
 backends = ['opencv', 'ssd', 'dlib', 'mtcnn', 'retinaface', 'mediapipe']
-models = ['VGG-Face', 'Facenet', 'Facenet512', 'OpenFace', 'DeepFace', 'DeepID', 'ArcFace', 'Dlib']
+models = ['VGG-Face', 'Facenet512', 'ArcFace', 'Dlib']
 
 
 
@@ -25,6 +25,7 @@ def main():
     source_image = arguments.source_image[0]
     database_path = arguments.database_path[0]
     k_value = arguments.k_value[0]
+    model = arguments.model[0]
     output_file = arguments.output_file[0]
 
     identities = []
@@ -32,7 +33,8 @@ def main():
     results_dataframe = DeepFace.find(img_path = source_image,
                         db_path = database_path,
                         enforce_detection = False,
-                        detector_backend = backends[3])
+                        detector_backend = backends[3],
+                        model_name=model)
 
     # Get the first 'K' results from the facial recognition system.
     for i, row in results_dataframe.iloc[:k_value].iterrows():
@@ -98,6 +100,9 @@ def parse_command_line_arguments() -> argparse.ArgumentParser:
 
     parser.add_argument('-k', '--k_value', type=int, nargs=1, required=True,
                         help='Determines the value used for Top-K Accuracy.')
+
+    parser.add_argument('-m', '--model', choices=['VGG-Face', 'Facenet512', 'ArcFace', 'Ensemble'], nargs=1, required=True,
+                        help='Face recognition model to use.')
 
     parser.add_argument('-o', '--output_file', nargs=1, required=True,
                         help='Output file to write accuracy results to (Ex. "output.txt")')
