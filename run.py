@@ -10,7 +10,12 @@ from pathlib import Path
 
 
 
+
 def main():
+    """
+        Perform batch facial recognition using the Top-K accuracy metric, saving
+        results to a text file.
+    """
     arguments = parse_command_line_arguments()
 
     source_directory = arguments.source_directory[0]
@@ -93,7 +98,14 @@ def parse_command_line_arguments() -> argparse.ArgumentParser:
 
 
 
-def get_an_image_from_each_class(source_directory):
+def get_an_image_from_each_class(source_directory: str) -> list:
+    """
+    Args:
+        source_directory (str): the path to a face dataset
+
+    Returns:
+        (list): a list containing one face image from every class of the dataset
+    """
     selected_images = []
 
     for root, directories, files in os.walk(source_directory):

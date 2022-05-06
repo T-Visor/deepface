@@ -116,7 +116,15 @@ def parse_command_line_arguments() -> argparse.ArgumentParser:
 
 
 
-def get_labels_and_fileIDs(identities) -> tuple[list, list]:
+def get_labels_and_fileIDs(identities: list) -> tuple[list, list]:
+    """
+    Args:
+        identities (list): a list of filename results from the facial recognition system
+
+    Returns:
+        (tuple[list, list]): a list with the predicted class labels and another
+                             list with the predicted fileIDs
+    """
     predicted_fileIDs = []
     predicted_labels = []
 
@@ -130,7 +138,7 @@ def get_labels_and_fileIDs(identities) -> tuple[list, list]:
 
 
 
-def extract_label(filename) -> str:
+def extract_label(filename: str) -> str:
     """
     Args:
         filename (str): the filename to extract the label from
@@ -145,7 +153,7 @@ def extract_label(filename) -> str:
 
 
 
-def extract_unique_fileID(filename) -> str:
+def extract_unique_fileID(filename: str) -> str:
     """
     Args:
         filename (str): the filename to extract the label from
