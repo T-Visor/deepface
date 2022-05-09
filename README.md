@@ -17,8 +17,8 @@ conda activate deepface
 ## Usage
 
 ```bash
-$ python3 run.py                                                                                 
-usage: run.py [-h] -s SOURCE_DIRECTORY -d DATABASE_PATH -k K_VALUE -o OUTPUT_FILE
+$ python3 run.py
+usage: run.py [-h] -s SOURCE_DIRECTORY -d DATABASE_PATH -k K_VALUE -m {VGG-Face,Facenet512,ArcFace,Ensemble} -o OUTPUT_FILE
 
 options:
   -h, --help            show this help message and exit
@@ -28,9 +28,10 @@ options:
                         Dataset of images containing known faces.
   -k K_VALUE, --k_value K_VALUE
                         Determines the value used for Top-K Accuracy.
+  -m {VGG-Face,Facenet512,ArcFace,Ensemble}, --model {VGG-Face,Facenet512,ArcFace,Ensemble}
+                        Face recognition model to use.
   -o OUTPUT_FILE, --output_file OUTPUT_FILE
                         Output file to write accuracy results to (Ex. "output.txt")
-
 ```
 
 ## Sample Output
