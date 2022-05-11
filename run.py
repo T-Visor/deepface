@@ -9,8 +9,6 @@ from tqdm import tqdm
 from pathlib import Path
 
 
-
-
 def main():
     """
         Perform batch facial recognition using the Top-K accuracy metric, saving
@@ -60,8 +58,6 @@ def main():
     out_file.close()
 
 
-
-
 def parse_command_line_arguments() -> argparse.ArgumentParser:
     """
         Parse the arguments from the command-line.
@@ -96,8 +92,6 @@ def parse_command_line_arguments() -> argparse.ArgumentParser:
     return parser.parse_args()
 
 
-
-
 def get_an_image_from_each_class(source_directory: str) -> list:
     """
     Args:
@@ -109,13 +103,13 @@ def get_an_image_from_each_class(source_directory: str) -> list:
     selected_images = []
 
     for root, directories, files in os.walk(source_directory):
-        if not files:
-            continue
-        selected_images.append(str(root) + '/' + random.choice(files))
+        if not files: continue
+
+        random_file = random.choice(files)
+        if not random_file.endswith('.pkl'):
+            selected_images.append(str(root) + '/' + random_file)
 
     return selected_images
-
-
 
 
 if __name__ == '__main__':

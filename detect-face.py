@@ -7,11 +7,6 @@ import sys
 import argparse
 import os
 
-backends = ['opencv', 'ssd', 'dlib', 'mtcnn', 'retinaface', 'mediapipe']
-models = ['VGG-Face', 'Facenet512', 'ArcFace', 'Dlib']
-
-
-
 
 def main():
     """
@@ -20,6 +15,7 @@ def main():
 
         NOTE: This has only been tested on using the FaceScrub dataset.
     """
+    backends = ['opencv', 'ssd', 'dlib', 'mtcnn', 'retinaface', 'mediapipe']
     arguments = parse_command_line_arguments()
 
     source_image = arguments.source_image[0]
@@ -79,8 +75,6 @@ def main():
         sys.exit(0)
 
 
-
-
 def parse_command_line_arguments() -> argparse.ArgumentParser:
     """ 
         Parse the arguments from the command-line.
@@ -115,7 +109,6 @@ def parse_command_line_arguments() -> argparse.ArgumentParser:
     return parser.parse_args()
 
 
-
 def get_labels_and_fileIDs(identities: list) -> tuple[list, list]:
     """
     Args:
@@ -136,8 +129,6 @@ def get_labels_and_fileIDs(identities: list) -> tuple[list, list]:
     return predicted_labels, predicted_fileIDs
 
 
-
-
 def extract_label(filename: str) -> str:
     """
     Args:
@@ -149,8 +140,6 @@ def extract_label(filename: str) -> str:
     directory_name = os.path.dirname(filename)
     label = os.path.basename(directory_name)
     return label
-
-
 
 
 def extract_unique_fileID(filename: str) -> str:
@@ -176,8 +165,6 @@ def extract_unique_fileID(filename: str) -> str:
         filename = filename.rpartition('.')[0]
 
     return filename
-
-
 
 
 if __name__ == '__main__':
