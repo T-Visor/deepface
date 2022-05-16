@@ -4,15 +4,15 @@ TOP 5 ACCURACY
 
 1.
 =============================================
-source image: Alfred_Molina_4170._attacked.png
-predicted: ['Dermot_Mulroney', 'Dermot_Mulroney'] 
+source image: Alfred_Molina_4008._attacked.png
+predicted: ['Al_Pacino'] 
 true label: Alfred_Molina
 Result: INCORRECT
 =============================================
 
 2.
 =============================================
-source image: Chris_Noth_21919._attacked.png
+source image: Chris_Noth_22171._attacked.png
 predicted: [] 
 true label: Chris_Noth
 Result: INCORRECT
@@ -20,7 +20,7 @@ Result: INCORRECT
 
 3.
 =============================================
-source image: Jackson_Rathbone_47898._attacked.png
+source image: Jackson_Rathbone_47787._attacked.png
 predicted: [] 
 true label: Jackson_Rathbone
 Result: INCORRECT
@@ -28,15 +28,15 @@ Result: INCORRECT
 
 4.
 =============================================
-source image: Gary_Oldman_38950._attacked.png
-predicted: ['Gary_Oldman', 'Gary_Oldman', 'Gary_Oldman', 'Gary_Oldman'] 
+source image: Gary_Oldman_39016._attacked.png
+predicted: [] 
 true label: Gary_Oldman
-Result: CORRECT
+Result: INCORRECT
 =============================================
 
 5.
 =============================================
-source image: Christopher_Lloyd_23570._attacked.png
+source image: Christopher_Lloyd_23355._attacked.png
 predicted: [] 
 true label: Christopher_Lloyd
 Result: INCORRECT
@@ -44,7 +44,7 @@ Result: INCORRECT
 
 6.
 =============================================
-source image: James_Brolin_49141._attacked.png
+source image: James_Brolin_49272._attacked.png
 predicted: [] 
 true label: James_Brolin
 Result: INCORRECT
@@ -60,7 +60,7 @@ Result: INCORRECT
 
 8.
 =============================================
-source image: David_Boreanaz_29218._attacked.png
+source image: David_Boreanaz_28956._attacked.png
 predicted: [] 
 true label: David_Boreanaz
 Result: INCORRECT
@@ -68,16 +68,16 @@ Result: INCORRECT
 
 9.
 =============================================
-source image: Gary_Dourdan_38555._attacked.png
-predicted: ['Denzel_Washington'] 
+source image: Gary_Dourdan_38781._attacked.png
+predicted: ['Jamie_Foxx', 'Gary_Dourdan'] 
 true label: Gary_Dourdan
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
 10.
 =============================================
-source image: Adam_McKay_750._attacked.png
-predicted: [] 
+source image: Adam_McKay_737._attacked.png
+predicted: ['Andy_Richter'] 
 true label: Adam_McKay
 Result: INCORRECT
 =============================================
@@ -92,23 +92,23 @@ Result: INCORRECT
 
 12.
 =============================================
-source image: Billy_Bob_Thornton_12518._attacked.png
-predicted: [] 
+source image: Billy_Bob_Thornton_12334._attacked.png
+predicted: ['Billy_Bob_Thornton', 'Billy_Bob_Thornton'] 
 true label: Billy_Bob_Thornton
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
 13.
 =============================================
-source image: Danny_Trejo_28760._attacked.png
-predicted: [] 
+source image: Danny_Trejo_28628._attacked.png
+predicted: ['Danny_Trejo', 'Danny_Trejo', 'Danny_Trejo', 'Danny_Trejo'] 
 true label: Danny_Trejo
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
 14.
 =============================================
-source image: Elijah_Wood_35658._attacked.png
+source image: Elijah_Wood_35691._attacked.png
 predicted: [] 
 true label: Elijah_Wood
 Result: INCORRECT
@@ -132,7 +132,7 @@ Result: INCORRECT
 
 17.
 =============================================
-source image: Ben_McKenzie_9238._attacked.png
+source image: Ben_McKenzie_9183._attacked.png
 predicted: [] 
 true label: Ben_McKenzie
 Result: INCORRECT
@@ -148,15 +148,15 @@ Result: INCORRECT
 
 19.
 =============================================
-source image: Brendan_Fraser_15280._attacked.png
-predicted: ['Brendan_Fraser', 'Brendan_Fraser', 'Brendan_Fraser', 'Brendan_Fraser'] 
+source image: Brendan_Fraser_15103._attacked.png
+predicted: [] 
 true label: Brendan_Fraser
-Result: CORRECT
+Result: INCORRECT
 =============================================
 
 20.
 =============================================
-source image: Ben_Kingsley_8873._attacked.png
+source image: Ben_Kingsley_8987._attacked.png
 predicted: [] 
 true label: Ben_Kingsley
 Result: INCORRECT
@@ -164,7 +164,7 @@ Result: INCORRECT
 
 21.
 =============================================
-source image: Antonio_Banderas_6966._attacked.png
+source image: Antonio_Banderas_6930._attacked.png
 predicted: [] 
 true label: Antonio_Banderas
 Result: INCORRECT
@@ -180,7 +180,7 @@ Result: INCORRECT
 
 23.
 =============================================
-source image: Colin_Hanks_25415._attacked.png
+source image: Colin_Hanks_25591_attacked.png
 predicted: [] 
 true label: Colin_Hanks
 Result: INCORRECT
@@ -196,7 +196,7 @@ Result: INCORRECT
 
 25.
 =============================================
-source image: Gabriel_Macht_38188._attacked.png
+source image: Gabriel_Macht_38262._attacked.png
 predicted: [] 
 true label: Gabriel_Macht
 Result: INCORRECT
@@ -220,7 +220,7 @@ Result: CORRECT
 
 28.
 =============================================
-source image: Ben_Stiller_9668._attacked.png
+source image: Ben_Stiller_9553._attacked.png
 predicted: [] 
 true label: Ben_Stiller
 Result: INCORRECT
@@ -228,16 +228,16 @@ Result: INCORRECT
 
 29.
 =============================================
-source image: Jackie_Chan_47521._attacked.png
-predicted: ['Jet_Li', 'Jet_Li', 'Jet_Li', 'Jet_Li', 'Jet_Li'] 
+source image: Jackie_Chan_47533._attacked.png
+predicted: [] 
 true label: Jackie_Chan
 Result: INCORRECT
 =============================================
 
 30.
 =============================================
-source image: Dean_Cain_30676._attacked.png
-predicted: ['Jet_Li', 'Jet_Li', 'Jet_Li'] 
+source image: Dean_Cain_30886._attacked.png
+predicted: [] 
 true label: Dean_Cain
 Result: INCORRECT
 =============================================
@@ -252,7 +252,7 @@ Result: CORRECT
 
 32.
 =============================================
-source image: Anthony_Stewart_Head_6417._attacked.png
+source image: Anthony_Stewart_Head_6400._attacked.png
 predicted: [] 
 true label: Anthony_Stewart_Head
 Result: INCORRECT
@@ -260,7 +260,7 @@ Result: INCORRECT
 
 33.
 =============================================
-source image: Bradley_Cooper_14727._attacked.png
+source image: Bradley_Cooper_14536._attacked.png
 predicted: [] 
 true label: Bradley_Cooper
 Result: INCORRECT
@@ -268,7 +268,7 @@ Result: INCORRECT
 
 34.
 =============================================
-source image: Christian_Bale_22644._attacked.png
+source image: Christian_Bale_22647._attacked.png
 predicted: [] 
 true label: Christian_Bale
 Result: INCORRECT
@@ -276,23 +276,23 @@ Result: INCORRECT
 
 35.
 =============================================
-source image: Chazz_Palminteri_20258._attacked.png
-predicted: ['Chazz_Palminteri'] 
+source image: Chazz_Palminteri_20351._attacked.png
+predicted: [] 
 true label: Chazz_Palminteri
-Result: CORRECT
+Result: INCORRECT
 =============================================
 
 36.
 =============================================
-source image: Harry_Connick_Jr._42823._attacked.png
-predicted: [] 
+source image: Harry_Connick_Jr._42780._attacked.png
+predicted: ['Harry_Connick_Jr.', 'Harry_Connick_Jr.', 'Harry_Connick_Jr.', 'Harry_Connick_Jr.'] 
 true label: Harry_Connick_Jr.
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
 37.
 =============================================
-source image: Andy_Serkis_5935._attacked.png
+source image: Andy_Serkis_5908._attacked.png
 predicted: [] 
 true label: Andy_Serkis
 Result: INCORRECT
@@ -300,7 +300,7 @@ Result: INCORRECT
 
 38.
 =============================================
-source image: David_Schwimmer_30217._attacked.png
+source image: David_Schwimmer_30073._attacked.png
 predicted: [] 
 true label: David_Schwimmer
 Result: INCORRECT
@@ -308,7 +308,7 @@ Result: INCORRECT
 
 39.
 =============================================
-source image: Jamie_Foxx_51254._attacked.png
+source image: Jamie_Foxx_51317._attacked.png
 predicted: [] 
 true label: Jamie_Foxx
 Result: INCORRECT
@@ -316,7 +316,7 @@ Result: INCORRECT
 
 40.
 =============================================
-source image: Amaury_Nolasco_4826._attacked.png
+source image: Amaury_Nolasco_4873._attacked.png
 predicted: [] 
 true label: Amaury_Nolasco
 Result: INCORRECT
@@ -324,15 +324,15 @@ Result: INCORRECT
 
 41.
 =============================================
-source image: Jason_Sudeikis_53253._attacked.png
-predicted: [] 
+source image: Jason_Sudeikis_53200._attacked.png
+predicted: ['Adam_Brody'] 
 true label: Jason_Sudeikis
 Result: INCORRECT
 =============================================
 
 42.
 =============================================
-source image: Charlie_Sheen_20146._attacked.png
+source image: Charlie_Sheen_19932._attacked.png
 predicted: [] 
 true label: Charlie_Sheen
 Result: INCORRECT
@@ -340,7 +340,7 @@ Result: INCORRECT
 
 43.
 =============================================
-source image: Colin_Farrell_24881._attacked.png
+source image: Colin_Farrell_24742._attacked.png
 predicted: [] 
 true label: Colin_Farrell
 Result: INCORRECT
@@ -348,7 +348,7 @@ Result: INCORRECT
 
 44.
 =============================================
-source image: Jim_Carrey_57975._attacked.png
+source image: Jim_Carrey_57979._attacked.png
 predicted: [] 
 true label: Jim_Carrey
 Result: INCORRECT
@@ -356,15 +356,15 @@ Result: INCORRECT
 
 45.
 =============================================
-source image: Emile_Hirsch_36012._attacked.png
-predicted: [] 
+source image: Emile_Hirsch_36001._attacked.png
+predicted: ['Emile_Hirsch', 'Emile_Hirsch', 'Emile_Hirsch'] 
 true label: Emile_Hirsch
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
 46.
 =============================================
-source image: Alec_Baldwin_3456._attacked.png
+source image: Alec_Baldwin_3314._attacked.png
 predicted: [] 
 true label: Alec_Baldwin
 Result: INCORRECT
@@ -372,15 +372,15 @@ Result: INCORRECT
 
 47.
 =============================================
-source image: James_Remar_51029._attacked.png
-predicted: [] 
+source image: James_Remar_50908._attacked.png
+predicted: ['Daniel_Craig'] 
 true label: James_Remar
 Result: INCORRECT
 =============================================
 
 48.
 =============================================
-source image: Daniel_Day-Lewis_26837._attacked.png
+source image: Daniel_Day-Lewis_27148._attacked.png
 predicted: [] 
 true label: Daniel_Day-Lewis
 Result: INCORRECT
@@ -388,7 +388,7 @@ Result: INCORRECT
 
 49.
 =============================================
-source image: Jared_Padalecki_51730._attacked.png
+source image: Jared_Padalecki_51493._attacked.png
 predicted: [] 
 true label: Jared_Padalecki
 Result: INCORRECT
@@ -396,7 +396,7 @@ Result: INCORRECT
 
 50.
 =============================================
-source image: Bill_Hader_11504._attacked.png
+source image: Bill_Hader_11503._attacked.png
 predicted: [] 
 true label: Bill_Hader
 Result: INCORRECT
@@ -412,7 +412,7 @@ Result: INCORRECT
 
 52.
 =============================================
-source image: Adam_Brody_398._attacked.png
+source image: Adam_Brody_629._attacked.png
 predicted: [] 
 true label: Adam_Brody
 Result: INCORRECT
@@ -420,7 +420,7 @@ Result: INCORRECT
 
 53.
 =============================================
-source image: Jeremy_Sisto_56246._attacked.png
+source image: Jeremy_Sisto_56446._attacked.png
 predicted: [] 
 true label: Jeremy_Sisto
 Result: INCORRECT
@@ -428,7 +428,7 @@ Result: INCORRECT
 
 54.
 =============================================
-source image: James_Frain_49366._attacked.png
+source image: James_Frain_49496._attacked.png
 predicted: [] 
 true label: James_Frain
 Result: INCORRECT
@@ -436,7 +436,7 @@ Result: INCORRECT
 
 55.
 =============================================
-source image: George_Lopez_40502._attacked.png
+source image: George_Lopez_40459._attacked.png
 predicted: [] 
 true label: George_Lopez
 Result: INCORRECT
@@ -444,15 +444,15 @@ Result: INCORRECT
 
 56.
 =============================================
-source image: Jason_Bateman_52029._attacked.png
-predicted: ['Ben_Affleck'] 
+source image: Jason_Bateman_51788._attacked.png
+predicted: [] 
 true label: Jason_Bateman
 Result: INCORRECT
 =============================================
 
 57.
 =============================================
-source image: Chris_Klein_21569._attacked.png
+source image: Chris_Klein_21540._attacked.png
 predicted: [] 
 true label: Chris_Klein
 Result: INCORRECT
@@ -460,31 +460,31 @@ Result: INCORRECT
 
 58.
 =============================================
-source image: Channing_Tatum_19036._attacked.png
-predicted: ['Channing_Tatum', 'Channing_Tatum', 'Channing_Tatum', 'Channing_Tatum'] 
+source image: Channing_Tatum_18924._attacked.png
+predicted: [] 
 true label: Channing_Tatum
-Result: CORRECT
+Result: INCORRECT
 =============================================
 
 59.
 =============================================
-source image: Edi_Gathegi_34964._attacked.png
-predicted: ['Chris_Rock'] 
+source image: Edi_Gathegi_34978._attacked.png
+predicted: ['Bill_Cosby', 'Bill_Cosby'] 
 true label: Edi_Gathegi
 Result: INCORRECT
 =============================================
 
 60.
 =============================================
-source image: Alan_Arkin_2529._attacked.png
-predicted: ['Anthony_Hopkins', 'Anthony_Hopkins'] 
+source image: Alan_Arkin_2782._attacked.png
+predicted: [] 
 true label: Alan_Arkin
 Result: INCORRECT
 =============================================
 
 61.
 =============================================
-source image: Hector_Elizondo_43909._attacked.png
+source image: Hector_Elizondo_43695._attacked.png
 predicted: [] 
 true label: Hector_Elizondo
 Result: INCORRECT
@@ -492,32 +492,32 @@ Result: INCORRECT
 
 62.
 =============================================
-source image: Bernard_Hill_10474._attacked.png
-predicted: [] 
+source image: Bernard_Hill_10270._attacked.png
+predicted: ['Ben_Kingsley', 'Jim_Beaver'] 
 true label: Bernard_Hill
 Result: INCORRECT
 =============================================
 
 63.
 =============================================
-source image: Gene_Hackman_39450._attacked.png
-predicted: ['Arnold_Schwarzenegger', 'Clive_Owen'] 
+source image: Gene_Hackman_39503._attacked.png
+predicted: [] 
 true label: Gene_Hackman
 Result: INCORRECT
 =============================================
 
 64.
 =============================================
-source image: Don_Cheadle_33337._attacked.png
-predicted: ['Don_Cheadle'] 
+source image: Don_Cheadle_33285._attacked.png
+predicted: [] 
 true label: Don_Cheadle
-Result: CORRECT
+Result: INCORRECT
 =============================================
 
 65.
 =============================================
-source image: Christian_Slater_22934._attacked.png
-predicted: [] 
+source image: Christian_Slater_22965._attacked.png
+predicted: ['Jared_Padalecki'] 
 true label: Christian_Slater
 Result: INCORRECT
 =============================================
@@ -532,15 +532,15 @@ Result: INCORRECT
 
 67.
 =============================================
-source image: Giovanni_Ribisi_41479._attacked.png
-predicted: [] 
+source image: Giovanni_Ribisi_41354_attacked.png
+predicted: ['Colin_Hanks', 'Brad_Garrett', 'Colin_Hanks', 'Colin_Hanks', 'Colin_Hanks'] 
 true label: Giovanni_Ribisi
 Result: INCORRECT
 =============================================
 
 68.
 =============================================
-source image: Billy_Zane_13635._attacked.png
+source image: Billy_Zane_13390._attacked.png
 predicted: [] 
 true label: Billy_Zane
 Result: INCORRECT
@@ -556,7 +556,7 @@ Result: INCORRECT
 
 70.
 =============================================
-source image: Christopher_Reeve_23842._attacked.png
+source image: Christopher_Reeve_23840._attacked.png
 predicted: [] 
 true label: Christopher_Reeve
 Result: INCORRECT
@@ -564,7 +564,7 @@ Result: INCORRECT
 
 71.
 =============================================
-source image: Denzel_Washington_31538._attacked.png
+source image: Denzel_Washington_31715._attacked.png
 predicted: [] 
 true label: Denzel_Washington
 Result: INCORRECT
@@ -572,7 +572,7 @@ Result: INCORRECT
 
 72.
 =============================================
-source image: Hugh_Jackman_44570._attacked.png
+source image: Hugh_Jackman_44303._attacked.png
 predicted: [] 
 true label: Hugh_Jackman
 Result: INCORRECT
@@ -580,7 +580,7 @@ Result: INCORRECT
 
 73.
 =============================================
-source image: Jason_Statham_52991._attacked.png
+source image: Jason_Statham_53095._attacked.png
 predicted: [] 
 true label: Jason_Statham
 Result: INCORRECT
@@ -588,7 +588,7 @@ Result: INCORRECT
 
 74.
 =============================================
-source image: Alexander_Skarsgård_3852._attacked.png
+source image: Alexander_Skarsgård_3622._attacked.png
 predicted: [] 
 true label: Alexander_Skarsgård
 Result: INCORRECT
@@ -596,7 +596,7 @@ Result: INCORRECT
 
 75.
 =============================================
-source image: David_Wenham_30383._attacked.png
+source image: David_Wenham_30455._attacked.png
 predicted: [] 
 true label: David_Wenham
 Result: INCORRECT
@@ -604,7 +604,7 @@ Result: INCORRECT
 
 76.
 =============================================
-source image: Hugh_Grant_43917._attacked.png
+source image: Hugh_Grant_44220._attacked.png
 predicted: [] 
 true label: Hugh_Grant
 Result: INCORRECT
@@ -612,7 +612,7 @@ Result: INCORRECT
 
 77.
 =============================================
-source image: Alan_Alda_2442._attacked.png
+source image: Alan_Alda_2343._attacked.png
 predicted: [] 
 true label: Alan_Alda
 Result: INCORRECT
@@ -628,7 +628,7 @@ Result: INCORRECT
 
 79.
 =============================================
-source image: Jake_Weber_48911._attacked.png
+source image: Jake_Weber_48784._attacked.png
 predicted: [] 
 true label: Jake_Weber
 Result: INCORRECT
@@ -644,15 +644,15 @@ Result: INCORRECT
 
 81.
 =============================================
-source image: Ian_McKellen_45421._attacked.png
-predicted: ['Ian_McKellen', 'Ian_McKellen', 'Ian_McKellen', 'Ben_Kingsley'] 
+source image: Ian_McKellen_45661._attacked.png
+predicted: [] 
 true label: Ian_McKellen
-Result: CORRECT
+Result: INCORRECT
 =============================================
 
 82.
 =============================================
-source image: Jason_Behr_52147._attacked.png
+source image: Jason_Behr_52145._attacked.png
 predicted: [] 
 true label: Jason_Behr
 Result: INCORRECT
@@ -660,7 +660,7 @@ Result: INCORRECT
 
 83.
 =============================================
-source image: Jay_Baruchel_54106._attacked.png
+source image: Jay_Baruchel_53971._attacked.png
 predicted: [] 
 true label: Jay_Baruchel
 Result: INCORRECT
@@ -668,7 +668,7 @@ Result: INCORRECT
 
 84.
 =============================================
-source image: Ashton_Kutcher_8013._attacked.png
+source image: Ashton_Kutcher_7838._attacked.png
 predicted: [] 
 true label: Ashton_Kutcher
 Result: INCORRECT
@@ -676,23 +676,23 @@ Result: INCORRECT
 
 85.
 =============================================
-source image: Casey_Affleck_18280._attacked.png
-predicted: [] 
+source image: Casey_Affleck_18454._attacked.png
+predicted: ['Bill_Hader', 'Bill_Hader', 'Bill_Hader', 'Billy_Burke', 'Bill_Hader'] 
 true label: Casey_Affleck
 Result: INCORRECT
 =============================================
 
 86.
 =============================================
-source image: Arnold_Schwarzenegger_7175._attacked.png
-predicted: [] 
+source image: Arnold_Schwarzenegger_7082._attacked.png
+predicted: ['Dwayne_Johnson'] 
 true label: Arnold_Schwarzenegger
 Result: INCORRECT
 =============================================
 
 87.
 =============================================
-source image: Adrien_Brody_1684._attacked.png
+source image: Adrien_Brody_1627._attacked.png
 predicted: [] 
 true label: Adrien_Brody
 Result: INCORRECT
@@ -700,7 +700,7 @@ Result: INCORRECT
 
 88.
 =============================================
-source image: Harrison_Ford_42387._attacked.png
+source image: Harrison_Ford_42492._attacked.png
 predicted: [] 
 true label: Harrison_Ford
 Result: INCORRECT
@@ -708,7 +708,7 @@ Result: INCORRECT
 
 89.
 =============================================
-source image: Jeffrey_Tambor_55316._attacked.png
+source image: Jeffrey_Tambor_55250._attacked.png
 predicted: [] 
 true label: Jeffrey_Tambor
 Result: INCORRECT
@@ -716,7 +716,7 @@ Result: INCORRECT
 
 90.
 =============================================
-source image: Cam_Gigandet_17682._attacked.png
+source image: Cam_Gigandet_17721._attacked.png
 predicted: [] 
 true label: Cam_Gigandet
 Result: INCORRECT
@@ -724,8 +724,8 @@ Result: INCORRECT
 
 91.
 =============================================
-source image: Bill_Cosby_11033._attacked.png
-predicted: ['Don_Cheadle', 'Jack_Nicholson', 'Danny_Glover', 'Bill_Cosby'] 
+source image: Bill_Cosby_11023._attacked.png
+predicted: ['Bill_Cosby', 'Bill_Cosby', 'Bill_Cosby', 'Bill_Cosby', 'Bill_Cosby'] 
 true label: Bill_Cosby
 Result: CORRECT
 =============================================
@@ -740,7 +740,7 @@ Result: INCORRECT
 
 93.
 =============================================
-source image: Jeremy_Irons_56015._attacked.png
+source image: Jeremy_Irons_55919._attacked.png
 predicted: [] 
 true label: Jeremy_Irons
 Result: INCORRECT
@@ -748,7 +748,7 @@ Result: INCORRECT
 
 94.
 =============================================
-source image: Alan_Rickman_2889._attacked.png
+source image: Alan_Rickman_3158._attacked.png
 predicted: [] 
 true label: Alan_Rickman
 Result: INCORRECT
@@ -756,15 +756,15 @@ Result: INCORRECT
 
 95.
 =============================================
-source image: Daniel_Craig_26520._attacked.png
-predicted: [] 
+source image: Daniel_Craig_26454._attacked.png
+predicted: ['Daniel_Craig', 'Daniel_Craig', 'Daniel_Craig'] 
 true label: Daniel_Craig
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
 96.
 =============================================
-source image: Cary_Elwes_18034._attacked.png
+source image: Cary_Elwes_17872._attacked.png
 predicted: [] 
 true label: Cary_Elwes
 Result: INCORRECT
@@ -772,7 +772,7 @@ Result: INCORRECT
 
 97.
 =============================================
-source image: Ed_Harris_34777._attacked.png
+source image: Ed_Harris_34653._attacked.png
 predicted: [] 
 true label: Ed_Harris
 Result: INCORRECT
@@ -780,7 +780,7 @@ Result: INCORRECT
 
 98.
 =============================================
-source image: Jason_Biggs_52555._attacked.png
+source image: Jason_Biggs_52594._attacked.png
 predicted: [] 
 true label: Jason_Biggs
 Result: INCORRECT
@@ -788,7 +788,7 @@ Result: INCORRECT
 
 99.
 =============================================
-source image: Bill_Nighy_12043._attacked.png
+source image: Bill_Nighy_12214._attacked.png
 predicted: [] 
 true label: Bill_Nighy
 Result: INCORRECT
@@ -796,7 +796,7 @@ Result: INCORRECT
 
 100.
 =============================================
-source image: Andy_Richter_5447._attacked.png
+source image: Andy_Richter_5527._attacked.png
 predicted: [] 
 true label: Andy_Richter
 Result: INCORRECT
@@ -804,7 +804,7 @@ Result: INCORRECT
 
 101.
 =============================================
-source image: Jaden_Smith_48161._attacked.png
+source image: Jaden_Smith_48028._attacked.png
 predicted: [] 
 true label: Jaden_Smith
 Result: INCORRECT
@@ -812,7 +812,7 @@ Result: INCORRECT
 
 102.
 =============================================
-source image: Chris_Kattan_21245._attacked.png
+source image: Chris_Kattan_21413._attacked.png
 predicted: [] 
 true label: Chris_Kattan
 Result: INCORRECT
@@ -820,15 +820,15 @@ Result: INCORRECT
 
 103.
 =============================================
-source image: Jean-Claude_Van_Damme_54764._attacked.png
-predicted: ['Jean-Claude_Van_Damme', 'Jean-Claude_Van_Damme', 'Jean-Claude_Van_Damme'] 
+source image: Jean-Claude_Van_Damme_54718._attacked.png
+predicted: [] 
 true label: Jean-Claude_Van_Damme
-Result: CORRECT
+Result: INCORRECT
 =============================================
 
 104.
 =============================================
-source image: Ioan_Gruffudd_46326._attacked.png
+source image: Ioan_Gruffudd_46341._attacked.png
 predicted: [] 
 true label: Ioan_Gruffudd
 Result: INCORRECT
@@ -836,7 +836,7 @@ Result: INCORRECT
 
 105.
 =============================================
-source image: Bill_Murray_11710._attacked.png
+source image: Bill_Murray_11631._attacked.png
 predicted: [] 
 true label: Bill_Murray
 Result: INCORRECT
@@ -844,23 +844,23 @@ Result: INCORRECT
 
 106.
 =============================================
-source image: Jake_Gyllenhaal_48447._attacked.png
-predicted: [] 
+source image: Jake_Gyllenhaal_48353._attacked.png
+predicted: ['Brad_Garrett'] 
 true label: Jake_Gyllenhaal
 Result: INCORRECT
 =============================================
 
 107.
 =============================================
-source image: J.K._Simmons_46640._attacked.png
-predicted: ['J.K._Simmons'] 
+source image: J.K._Simmons_46601._attacked.png
+predicted: [] 
 true label: J.K._Simmons
-Result: CORRECT
+Result: INCORRECT
 =============================================
 
 108.
 =============================================
-source image: Ian_Holm_45250._attacked.png
+source image: Ian_Holm_45245._attacked.png
 predicted: [] 
 true label: Ian_Holm
 Result: INCORRECT
@@ -868,7 +868,7 @@ Result: INCORRECT
 
 109.
 =============================================
-source image: Jet_Li_57334._attacked.png
+source image: Jet_Li_57253._attacked.png
 predicted: [] 
 true label: Jet_Li
 Result: INCORRECT
@@ -876,15 +876,15 @@ Result: INCORRECT
 
 110.
 =============================================
-source image: Clive_Owen_24657._attacked.png
-predicted: [] 
+source image: Clive_Owen_24390._attacked.png
+predicted: ['Chris_Evans'] 
 true label: Clive_Owen
 Result: INCORRECT
 =============================================
 
 111.
 =============================================
-source image: Charlie_Day_19642._attacked.png
+source image: Charlie_Day_19664._attacked.png
 predicted: [] 
 true label: Charlie_Day
 Result: INCORRECT
@@ -892,10 +892,10 @@ Result: INCORRECT
 
 112.
 =============================================
-source image: Eric_Dane_36538._attacked.png
-predicted: [] 
+source image: Eric_Dane_36434._attacked.png
+predicted: ['Eric_Dane'] 
 true label: Eric_Dane
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
 113.
@@ -908,7 +908,7 @@ Result: CORRECT
 
 114.
 =============================================
-source image: Bruce_Willis_16275._attacked.png
+source image: Bruce_Willis_16140._attacked.png
 predicted: [] 
 true label: Bruce_Willis
 Result: INCORRECT
@@ -916,7 +916,7 @@ Result: INCORRECT
 
 115.
 =============================================
-source image: Desmond_Harrington_32190._attacked.png
+source image: Desmond_Harrington_32408._attacked.png
 predicted: [] 
 true label: Desmond_Harrington
 Result: INCORRECT
@@ -924,7 +924,7 @@ Result: INCORRECT
 
 116.
 =============================================
-source image: Dominic_Monaghan_32919._attacked.png
+source image: Dominic_Monaghan_32955._attacked.png
 predicted: [] 
 true label: Dominic_Monaghan
 Result: INCORRECT
@@ -932,15 +932,15 @@ Result: INCORRECT
 
 117.
 =============================================
-source image: Geoffrey_Rush_39613._attacked.png
-predicted: ['Daniel_Day-Lewis'] 
+source image: Geoffrey_Rush_39680._attacked.png
+predicted: [] 
 true label: Geoffrey_Rush
 Result: INCORRECT
 =============================================
 
 118.
 =============================================
-source image: Danny_Masterson_28499._attacked.png
+source image: Danny_Masterson_28427._attacked.png
 predicted: [] 
 true label: Danny_Masterson
 Result: INCORRECT
@@ -948,7 +948,7 @@ Result: INCORRECT
 
 119.
 =============================================
-source image: Andy_Garcia_4983._attacked.png
+source image: Andy_Garcia_5119._attacked.png
 predicted: [] 
 true label: Andy_Garcia
 Result: INCORRECT
@@ -956,15 +956,15 @@ Result: INCORRECT
 
 120.
 =============================================
-source image: Hugo_Weaving_44772._attacked.png
-predicted: ['Billy_Burke', 'Billy_Burke', 'Billy_Burke', 'Billy_Burke'] 
+source image: Hugo_Weaving_44686._attacked.png
+predicted: [] 
 true label: Hugo_Weaving
 Result: INCORRECT
 =============================================
 
 121.
 =============================================
-source image: David_Duchovny_29306._attacked.png
+source image: David_Duchovny_29600._attacked.png
 predicted: [] 
 true label: David_Duchovny
 Result: INCORRECT
@@ -972,15 +972,15 @@ Result: INCORRECT
 
 122.
 =============================================
-source image: Brad_Garrett_13956._attacked.png
-predicted: [] 
+source image: Brad_Garrett_14010._attacked.png
+predicted: ['Brad_Garrett', 'Brad_Garrett', 'Brad_Garrett', 'Brad_Garrett'] 
 true label: Brad_Garrett
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
 123.
 =============================================
-source image: Hank_Azaria_42263._attacked.png
+source image: Hank_Azaria_42280._attacked.png
 predicted: [] 
 true label: Hank_Azaria
 Result: INCORRECT
@@ -988,10 +988,10 @@ Result: INCORRECT
 
 124.
 =============================================
-source image: Ben_Affleck_8734._attacked.png
-predicted: [] 
+source image: Ben_Affleck_8533._attacked.png
+predicted: ['Ben_Affleck', 'Ben_Affleck', 'Ben_Affleck', 'Ben_Affleck'] 
 true label: Ben_Affleck
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
 125.
@@ -1004,31 +1004,31 @@ Result: INCORRECT
 
 126.
 =============================================
-source image: Gerard_Butler_40628._attacked.png
-predicted: [] 
+source image: Gerard_Butler_40745._attacked.png
+predicted: ['Alfred_Molina'] 
 true label: Gerard_Butler
 Result: INCORRECT
 =============================================
 
 127.
 =============================================
-source image: Chris_Rock_22372._attacked.png
-predicted: ['Bill_Cosby'] 
+source image: Chris_Rock_22181._attacked.png
+predicted: [] 
 true label: Chris_Rock
 Result: INCORRECT
 =============================================
 
 128.
 =============================================
-source image: Colin_Firth_25363._attacked.png
-predicted: ['Billy_Burke', 'Billy_Burke', 'Billy_Burke', 'Billy_Burke', 'Billy_Burke'] 
+source image: Colin_Firth_25351._attacked.png
+predicted: [] 
 true label: Colin_Firth
 Result: INCORRECT
 =============================================
 
 129.
 =============================================
-source image: Adam_Sandler_1283._attacked.png
+source image: Adam_Sandler_1099._attacked.png
 predicted: [] 
 true label: Adam_Sandler
 Result: INCORRECT
@@ -1036,7 +1036,7 @@ Result: INCORRECT
 
 130.
 =============================================
-source image: Diego_Luna_32632._attacked.png
+source image: Diego_Luna_32491._attacked.png
 predicted: [] 
 true label: Diego_Luna
 Result: INCORRECT
@@ -1044,7 +1044,7 @@ Result: INCORRECT
 
 131.
 =============================================
-source image: Brad_Pitt_14081._attacked.png
+source image: Brad_Pitt_14214._attacked.png
 predicted: [] 
 true label: Brad_Pitt
 Result: INCORRECT
@@ -1052,7 +1052,7 @@ Result: INCORRECT
 
 132.
 =============================================
-source image: Jerry_Seinfeld_56716._attacked.png
+source image: Jerry_Seinfeld_56538._attacked.png
 predicted: [] 
 true label: Jerry_Seinfeld
 Result: INCORRECT
@@ -1060,7 +1060,7 @@ Result: INCORRECT
 
 133.
 =============================================
-source image: James_Marsden_50066._attacked.png
+source image: James_Marsden_50029._attacked.png
 predicted: [] 
 true label: James_Marsden
 Result: INCORRECT
@@ -1068,7 +1068,7 @@ Result: INCORRECT
 
 134.
 =============================================
-source image: Hal_Holbrook_41953._attacked.png
+source image: Hal_Holbrook_41675._attacked.png
 predicted: [] 
 true label: Hal_Holbrook
 Result: INCORRECT
@@ -1076,7 +1076,7 @@ Result: INCORRECT
 
 135.
 =============================================
-source image: Bruce_Greenwood_15717._attacked.png
+source image: Bruce_Greenwood_15453._attacked.png
 predicted: [] 
 true label: Bruce_Greenwood
 Result: INCORRECT
@@ -1084,7 +1084,7 @@ Result: INCORRECT
 
 136.
 =============================================
-source image: Jensen_Ackles_55549._attacked.png
+source image: Jensen_Ackles_55740._attacked.png
 predicted: [] 
 true label: Jensen_Ackles
 Result: INCORRECT
@@ -1092,7 +1092,7 @@ Result: INCORRECT
 
 137.
 =============================================
-source image: Freddy_Prinze_Jr._37504._attacked.png
+source image: Freddy_Prinze_Jr._37805._attacked.png
 predicted: [] 
 true label: Freddy_Prinze_Jr.
 Result: INCORRECT
@@ -1100,7 +1100,7 @@ Result: INCORRECT
 
 138.
 =============================================
-source image: Freddy_Rodríguez_38066._attacked.png
+source image: Freddy_Rodríguez_37973._attacked.png
 predicted: [] 
 true label: Freddy_Rodríguez
 Result: INCORRECT
@@ -1108,7 +1108,7 @@ Result: INCORRECT
 
 139.
 =============================================
-source image: James_Franco_49687._attacked.png
+source image: James_Franco_49775._attacked.png
 predicted: [] 
 true label: James_Franco
 Result: INCORRECT
@@ -1116,7 +1116,7 @@ Result: INCORRECT
 
 140.
 =============================================
-source image: Clint_Eastwood_24316._attacked.png
+source image: Clint_Eastwood_24288._attacked.png
 predicted: [] 
 true label: Clint_Eastwood
 Result: INCORRECT
@@ -1124,7 +1124,7 @@ Result: INCORRECT
 
 141.
 =============================================
-source image: Chris_Evans_20964._attacked.png
+source image: Chris_Evans_20948._attacked.png
 predicted: [] 
 true label: Chris_Evans
 Result: INCORRECT
@@ -1132,7 +1132,7 @@ Result: INCORRECT
 
 142.
 =============================================
-source image: James_McAvoy_50544._attacked.png
+source image: James_McAvoy_50465._attacked.png
 predicted: [] 
 true label: James_McAvoy
 Result: INCORRECT
@@ -1140,7 +1140,7 @@ Result: INCORRECT
 
 143.
 =============================================
-source image: Hayden_Christensen_43169._attacked.png
+source image: Hayden_Christensen_42883._attacked.png
 predicted: [] 
 true label: Hayden_Christensen
 Result: INCORRECT
@@ -1148,10 +1148,10 @@ Result: INCORRECT
 
 144.
 =============================================
-source image: Arnold_Vosloo_7670._attacked.png
-predicted: [] 
+source image: Arnold_Vosloo_7572._attacked.png
+predicted: ['Chris_Rock', 'Chris_Rock', 'Chris_Rock', 'Chris_Rock', 'Chris_Rock'] 
 true label: Arnold_Vosloo
 Result: INCORRECT
 =============================================
 
-Accuracy: 12/144 (8%)
+Accuracy: 13/144 (9%)

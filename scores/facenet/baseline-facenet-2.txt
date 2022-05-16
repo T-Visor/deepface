@@ -3,480 +3,478 @@ TOP 5 ACCURACY
 -------------------------------
 
 1.
-
-2.
 =============================================
-source image: Alfred_Molina_4057.jpg
+source image: Alfred_Molina_4144.jpg
 predicted: ['Alfred_Molina', 'Alfred_Molina', 'Alfred_Molina', 'Alfred_Molina'] 
 true label: Alfred_Molina
 Result: CORRECT
 =============================================
 
-3.
+2.
 =============================================
-source image: Chris_Noth_22100.jpg
+source image: Chris_Noth_22019.jpg
 predicted: ['Chris_Noth', 'Chris_Noth', 'Chris_Noth', 'Chris_Noth'] 
 true label: Chris_Noth
 Result: CORRECT
 =============================================
 
+3.
+=============================================
+source image: Jackson_Rathbone_47573.jpg
+predicted: ['Jackson_Rathbone', 'Jackson_Rathbone', 'Jackson_Rathbone', 'Jackson_Rathbone'] 
+true label: Jackson_Rathbone
+Result: CORRECT
+=============================================
+
 4.
 =============================================
-source image: Jackson_Rathbone_47575.jpg
-predicted: ['Jackson_Rathbone', 'Jackson_Rathbone'] 
-true label: Jackson_Rathbone
+source image: Gary_Oldman_39109.jpg
+predicted: ['Gary_Oldman', 'Gary_Oldman', 'Gary_Oldman', 'Gary_Oldman'] 
+true label: Gary_Oldman
 Result: CORRECT
 =============================================
 
 5.
 =============================================
-source image: Gary_Oldman_39121.jpg
-predicted: ['Gary_Oldman', 'Gary_Oldman'] 
-true label: Gary_Oldman
-Result: CORRECT
-=============================================
-
-6.
-=============================================
-source image: Christopher_Lloyd_23333.jpg
+source image: Christopher_Lloyd_23578.jpg
 predicted: ['Christopher_Lloyd', 'Christopher_Lloyd', 'Christopher_Lloyd', 'Christopher_Lloyd'] 
 true label: Christopher_Lloyd
 Result: CORRECT
 =============================================
 
-7.
+6.
 =============================================
-source image: James_Brolin_48979.jpg
-predicted: [] 
+source image: James_Brolin_48971.jpg
+predicted: ['James_Brolin', 'James_Brolin', 'James_Brolin', 'James_Brolin'] 
 true label: James_Brolin
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
-8.
+7.
 =============================================
-source image: Burt_Reynolds_16865.jpg
+source image: Burt_Reynolds_17048.jpg
 predicted: ['Burt_Reynolds', 'Burt_Reynolds', 'Burt_Reynolds', 'Burt_Reynolds'] 
 true label: Burt_Reynolds
 Result: CORRECT
 =============================================
 
-9.
+8.
 =============================================
-source image: David_Boreanaz_28922.jpg
-predicted: ['Freddy_Prinze_Jr.', 'Freddy_Prinze_Jr.'] 
+source image: David_Boreanaz_29252.jpg
+predicted: ['David_Boreanaz', 'David_Boreanaz'] 
 true label: David_Boreanaz
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
-10.
+9.
 =============================================
-source image: Gary_Dourdan_38644.jpg
+source image: Gary_Dourdan_38497.jpg
 predicted: ['Gary_Dourdan', 'Gary_Dourdan', 'Gary_Dourdan', 'Gary_Dourdan'] 
 true label: Gary_Dourdan
 Result: CORRECT
 =============================================
 
+10.
+=============================================
+source image: Adam_McKay_784.jpg
+predicted: ['Adam_McKay', 'Adam_McKay', 'Adam_McKay', 'Adam_McKay'] 
+true label: Adam_McKay
+Result: CORRECT
+=============================================
+
 11.
 =============================================
-source image: Adam_McKay_860.jpg
-predicted: ['Adam_McKay'] 
-true label: Adam_McKay
+source image: Aaron_Eckhart_7.jpg
+predicted: ['Aaron_Eckhart', 'Aaron_Eckhart', 'Aaron_Eckhart', 'Aaron_Eckhart'] 
+true label: Aaron_Eckhart
 Result: CORRECT
 =============================================
 
 12.
 =============================================
-source image: Aaron_Eckhart_226.jpg
-predicted: ['Aaron_Eckhart'] 
-true label: Aaron_Eckhart
-Result: CORRECT
-=============================================
-
-13.
-=============================================
-source image: Billy_Bob_Thornton_12631.jpg
+source image: Billy_Bob_Thornton_12615.jpg
 predicted: ['Billy_Bob_Thornton', 'Billy_Bob_Thornton', 'Billy_Bob_Thornton', 'Billy_Bob_Thornton'] 
 true label: Billy_Bob_Thornton
 Result: CORRECT
 =============================================
 
-14.
+13.
 =============================================
-source image: Danny_Trejo_28896.jpg
-predicted: ['Jim_Beaver'] 
+source image: Danny_Trejo_28892.jpg
+predicted: ['Danny_Trejo', 'Danny_Trejo', 'Danny_Trejo', 'Danny_Trejo'] 
 true label: Danny_Trejo
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
-15.
+14.
 =============================================
-source image: Elijah_Wood_35875.jpg
+source image: Elijah_Wood_35747.jpg
 predicted: ['Elijah_Wood', 'Elijah_Wood', 'Elijah_Wood', 'Elijah_Wood'] 
 true label: Elijah_Wood
 Result: CORRECT
 =============================================
 
-16.
+15.
 =============================================
-source image: George_Clooney_39912.jpg
-predicted: [] 
+source image: George_Clooney_40019.jpg
+predicted: ['George_Clooney', 'George_Clooney'] 
 true label: George_Clooney
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
-17.
+16.
 =============================================
-source image: Heath_Ledger_43425.jpg
+source image: Heath_Ledger_43538.jpg
 predicted: ['Heath_Ledger', 'Heath_Ledger', 'Heath_Ledger', 'Heath_Ledger'] 
 true label: Heath_Ledger
 Result: CORRECT
 =============================================
 
-18.
+17.
 =============================================
-source image: Ben_McKenzie_9223.jpg
+source image: Ben_McKenzie_9238.jpg
 predicted: ['Ben_McKenzie', 'Ben_McKenzie', 'Ben_McKenzie', 'Ben_McKenzie'] 
 true label: Ben_McKenzie
 Result: CORRECT
 =============================================
 
-19.
+18.
 =============================================
-source image: Anthony_Hopkins_6316.png
+source image: Anthony_Hopkins_5993.jpg
 predicted: ['Anthony_Hopkins', 'Anthony_Hopkins', 'Anthony_Hopkins', 'Anthony_Hopkins'] 
 true label: Anthony_Hopkins
 Result: CORRECT
 =============================================
 
-20.
+19.
 =============================================
-source image: Brendan_Fraser_15312.jpg
+source image: Brendan_Fraser_15167.jpg
 predicted: ['Brendan_Fraser', 'Brendan_Fraser', 'Brendan_Fraser', 'Brendan_Fraser'] 
 true label: Brendan_Fraser
 Result: CORRECT
 =============================================
 
-21.
+20.
 =============================================
-source image: Ben_Kingsley_8927.jpg
-predicted: ['Ben_Kingsley', 'Ben_Kingsley', 'Ben_Kingsley', 'Ben_Kingsley'] 
+source image: Ben_Kingsley_8868.jpg
+predicted: ['Ben_Kingsley'] 
 true label: Ben_Kingsley
 Result: CORRECT
 =============================================
 
-22.
+21.
 =============================================
-source image: Antonio_Banderas_6899.jpg
+source image: Antonio_Banderas_6962.jpg
 predicted: ['Antonio_Banderas', 'Antonio_Banderas', 'Antonio_Banderas', 'Antonio_Banderas'] 
 true label: Antonio_Banderas
 Result: CORRECT
 =============================================
 
-23.
+22.
 =============================================
-source image: Benicio_Del_Toro_10079.jpg
+source image: Benicio_Del_Toro_9981.jpg
 predicted: ['Benicio_Del_Toro', 'Benicio_Del_Toro', 'Benicio_Del_Toro', 'Benicio_Del_Toro'] 
 true label: Benicio_Del_Toro
 Result: CORRECT
 =============================================
 
-24.
+23.
 =============================================
-source image: Colin_Hanks_25457.jpg
+source image: Colin_Hanks_25478.jpg
 predicted: ['Colin_Hanks', 'Colin_Hanks', 'Colin_Hanks', 'Colin_Hanks'] 
 true label: Colin_Hanks
 Result: CORRECT
 =============================================
 
-25.
+24.
 =============================================
-source image: Jesse_Eisenberg_57129.jpg
+source image: Jesse_Eisenberg_57067.jpg
 predicted: ['Jesse_Eisenberg', 'Jesse_Eisenberg', 'Jesse_Eisenberg', 'Jesse_Eisenberg'] 
 true label: Jesse_Eisenberg
 Result: CORRECT
 =============================================
 
+25.
+=============================================
+source image: Gabriel_Macht_38281.jpg
+predicted: [] 
+true label: Gabriel_Macht
+Result: INCORRECT
+=============================================
+
 26.
 =============================================
-source image: Gabriel_Macht_38205.jpg
-predicted: ['Gabriel_Macht', 'Gabriel_Macht', 'Gabriel_Macht', 'Gabriel_Macht'] 
-true label: Gabriel_Macht
+source image: Al_Pacino_1831.jpg
+predicted: ['Al_Pacino', 'Al_Pacino', 'Al_Pacino', 'Al_Pacino'] 
+true label: Al_Pacino
 Result: CORRECT
 =============================================
 
 27.
 =============================================
-source image: Al_Pacino_2105.png
-predicted: [] 
-true label: Al_Pacino
-Result: INCORRECT
+source image: Ethan_Hawke_37027.jpg
+predicted: ['Ethan_Hawke', 'Ethan_Hawke', 'Ethan_Hawke', 'Ethan_Hawke'] 
+true label: Ethan_Hawke
+Result: CORRECT
 =============================================
 
 28.
 =============================================
-source image: Ethan_Hawke_36787.jpg
-predicted: [] 
-true label: Ethan_Hawke
-Result: INCORRECT
-=============================================
-
-29.
-=============================================
-source image: Ben_Stiller_9565.jpg
+source image: Ben_Stiller_9763.jpg
 predicted: ['Ben_Stiller', 'Ben_Stiller', 'Ben_Stiller', 'Ben_Stiller'] 
 true label: Ben_Stiller
 Result: CORRECT
 =============================================
 
-30.
+29.
 =============================================
-source image: Jackie_Chan_47526.jpg
+source image: Jackie_Chan_47423.jpg
 predicted: ['Jackie_Chan', 'Jackie_Chan', 'Jackie_Chan', 'Jackie_Chan'] 
 true label: Jackie_Chan
 Result: CORRECT
 =============================================
 
+30.
+=============================================
+source image: Dean_Cain_30942.jpg
+predicted: [] 
+true label: Dean_Cain
+Result: INCORRECT
+=============================================
+
 31.
 =============================================
-source image: Dean_Cain_30979.jpg
-predicted: ['Dean_Cain', 'Dean_Cain', 'Dean_Cain', 'Dean_Cain'] 
-true label: Dean_Cain
-Result: CORRECT
+source image: Jim_Beaver_57806.jpg
+predicted: [] 
+true label: Jim_Beaver
+Result: INCORRECT
 =============================================
 
 32.
 =============================================
-source image: Jim_Beaver_57739.jpg
-predicted: ['Jim_Beaver', 'Jim_Beaver', 'Jim_Beaver', 'Jim_Beaver'] 
-true label: Jim_Beaver
-Result: CORRECT
-=============================================
-
-33.
-=============================================
-source image: Anthony_Stewart_Head_6388.jpg
+source image: Anthony_Stewart_Head_6658.jpg
 predicted: ['Anthony_Stewart_Head', 'Anthony_Stewart_Head', 'Anthony_Stewart_Head', 'Anthony_Stewart_Head'] 
 true label: Anthony_Stewart_Head
 Result: CORRECT
 =============================================
 
-34.
+33.
 =============================================
-source image: Bradley_Cooper_14671.jpg
+source image: Bradley_Cooper_14519.jpg
 predicted: ['Bradley_Cooper', 'Bradley_Cooper', 'Bradley_Cooper', 'Bradley_Cooper'] 
 true label: Bradley_Cooper
 Result: CORRECT
 =============================================
 
-35.
+34.
 =============================================
-source image: Christian_Bale_22632.jpg
-predicted: ['Christian_Bale', 'Christian_Bale', 'Christian_Bale', 'Christian_Bale'] 
+source image: Christian_Bale_22644.jpg
+predicted: ['Christian_Bale', 'Christian_Bale', 'Christian_Bale'] 
 true label: Christian_Bale
 Result: CORRECT
 =============================================
 
-36.
+35.
 =============================================
-source image: Chazz_Palminteri_20374.jpg
+source image: Chazz_Palminteri_20222.jpg
 predicted: ['Chazz_Palminteri', 'Chazz_Palminteri', 'Chazz_Palminteri', 'Chazz_Palminteri'] 
 true label: Chazz_Palminteri
 Result: CORRECT
 =============================================
 
-37.
+36.
 =============================================
-source image: Harry_Connick_Jr._42868.jpg
+source image: Harry_Connick_Jr._42786.jpg
 predicted: ['Harry_Connick_Jr.', 'Harry_Connick_Jr.', 'Harry_Connick_Jr.', 'Harry_Connick_Jr.'] 
 true label: Harry_Connick_Jr.
 Result: CORRECT
 =============================================
 
-38.
+37.
 =============================================
-source image: Andy_Serkis_5649.jpg
+source image: Andy_Serkis_5868.jpg
 predicted: ['Andy_Serkis', 'Andy_Serkis', 'Andy_Serkis', 'Andy_Serkis'] 
 true label: Andy_Serkis
 Result: CORRECT
 =============================================
 
-39.
+38.
 =============================================
-source image: David_Schwimmer_30327.jpg
+source image: David_Schwimmer_30281.jpg
 predicted: ['David_Schwimmer', 'David_Schwimmer', 'David_Schwimmer', 'David_Schwimmer'] 
 true label: David_Schwimmer
 Result: CORRECT
 =============================================
 
-40.
+39.
 =============================================
-source image: Jamie_Foxx_51332.jpg
-predicted: ['Jamie_Foxx', 'Jamie_Foxx', 'Jamie_Foxx', 'Jamie_Foxx'] 
+source image: Jamie_Foxx_51053.jpg
+predicted: ['Jamie_Foxx'] 
 true label: Jamie_Foxx
 Result: CORRECT
 =============================================
 
-41.
+40.
 =============================================
-source image: Amaury_Nolasco_4797.jpg
+source image: Amaury_Nolasco_4913.jpg
 predicted: ['Amaury_Nolasco', 'Amaury_Nolasco', 'Amaury_Nolasco', 'Amaury_Nolasco'] 
 true label: Amaury_Nolasco
 Result: CORRECT
 =============================================
 
-42.
+41.
 =============================================
-source image: Jason_Sudeikis_53348.jpg
+source image: Jason_Sudeikis_53251.jpg
 predicted: ['Jason_Sudeikis', 'Jason_Sudeikis', 'Jason_Sudeikis', 'Jason_Sudeikis'] 
 true label: Jason_Sudeikis
 Result: CORRECT
 =============================================
 
-43.
+42.
 =============================================
-source image: Charlie_Sheen_19849.jpg
+source image: Charlie_Sheen_19997.jpg
 predicted: ['Charlie_Sheen', 'Charlie_Sheen', 'Charlie_Sheen', 'Charlie_Sheen'] 
 true label: Charlie_Sheen
 Result: CORRECT
 =============================================
 
-44.
+43.
 =============================================
-source image: Colin_Farrell_24890.jpg
+source image: Colin_Farrell_24879.jpg
 predicted: ['Colin_Farrell', 'Colin_Farrell', 'Colin_Farrell', 'Colin_Farrell'] 
 true label: Colin_Farrell
 Result: CORRECT
 =============================================
 
-45.
+44.
 =============================================
-source image: Jim_Carrey_57949.jpg
+source image: Jim_Carrey_57988.jpg
 predicted: ['Jim_Carrey', 'Jim_Carrey', 'Jim_Carrey', 'Jim_Carrey'] 
 true label: Jim_Carrey
 Result: CORRECT
 =============================================
 
-46.
+45.
 =============================================
-source image: Emile_Hirsch_36040.jpg
+source image: Emile_Hirsch_36162.jpg
 predicted: ['Emile_Hirsch', 'Emile_Hirsch', 'Emile_Hirsch', 'Emile_Hirsch'] 
 true label: Emile_Hirsch
 Result: CORRECT
 =============================================
 
-47.
+46.
 =============================================
-source image: Alec_Baldwin_3434.jpg
+source image: Alec_Baldwin_3425.jpg
 predicted: ['Alec_Baldwin', 'Alec_Baldwin', 'Alec_Baldwin', 'Alec_Baldwin'] 
 true label: Alec_Baldwin
 Result: CORRECT
 =============================================
 
-48.
+47.
 =============================================
-source image: James_Remar_50960.png
+source image: James_Remar_50988.jpg
 predicted: ['James_Remar', 'James_Remar', 'James_Remar', 'James_Remar'] 
 true label: James_Remar
 Result: CORRECT
 =============================================
 
+48.
+=============================================
+source image: Daniel_Day-Lewis_27103.jpg
+predicted: ['Daniel_Day-Lewis', 'Daniel_Day-Lewis', 'Daniel_Day-Lewis', 'Daniel_Day-Lewis'] 
+true label: Daniel_Day-Lewis
+Result: CORRECT
+=============================================
+
 49.
 =============================================
-source image: Daniel_Day-Lewis_26826.jpg
-predicted: ['Daniel_Day-Lewis', 'Channing_Tatum', 'Channing_Tatum', 'Channing_Tatum'] 
-true label: Daniel_Day-Lewis
+source image: Jared_Padalecki_51537.jpg
+predicted: ['Jared_Padalecki', 'Jared_Padalecki'] 
+true label: Jared_Padalecki
 Result: CORRECT
 =============================================
 
 50.
 =============================================
-source image: Jared_Padalecki_51471.jpg
-predicted: ['Jared_Padalecki', 'Jared_Padalecki', 'Jared_Padalecki', 'Jared_Padalecki'] 
-true label: Jared_Padalecki
-Result: CORRECT
-=============================================
-
-51.
-=============================================
-source image: Bill_Hader_11278.jpg
+source image: Bill_Hader_11591.jpg
 predicted: ['Bill_Hader', 'Bill_Hader', 'Bill_Hader', 'Bill_Hader'] 
 true label: Bill_Hader
 Result: CORRECT
 =============================================
 
-52.
+51.
 =============================================
-source image: Dan_Lauria_26252.png
-predicted: [] 
+source image: Dan_Lauria_26162.png
+predicted: ['Dan_Lauria', 'Dan_Lauria', 'Dan_Lauria', 'Dan_Lauria'] 
 true label: Dan_Lauria
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
-53.
+52.
 =============================================
-source image: Adam_Brody_458.jpg
-predicted: ['Adam_Brody', 'Adam_Brody'] 
+source image: Adam_Brody_616.jpg
+predicted: ['Adam_Brody'] 
 true label: Adam_Brody
 Result: CORRECT
 =============================================
 
-54.
+53.
 =============================================
-source image: Dustin_Hoffman_33849.jpg
+source image: Dustin_Hoffman_33771.jpg
 predicted: ['Dustin_Hoffman', 'Dustin_Hoffman', 'Dustin_Hoffman', 'Dustin_Hoffman'] 
 true label: Dustin_Hoffman
 Result: CORRECT
 =============================================
 
-55.
+54.
 =============================================
-source image: Jeremy_Sisto_56460.jpg
+source image: Jeremy_Sisto_56238.jpg
 predicted: ['Jeremy_Sisto', 'Jeremy_Sisto', 'Jeremy_Sisto', 'Jeremy_Sisto'] 
 true label: Jeremy_Sisto
 Result: CORRECT
 =============================================
 
-56.
+55.
 =============================================
-source image: James_Frain_49542.png
-predicted: ['James_Frain', 'James_Frain'] 
+source image: James_Frain_49442.jpg
+predicted: ['James_Frain', 'James_Frain', 'James_Frain', 'James_Frain'] 
 true label: James_Frain
 Result: CORRECT
 =============================================
 
-57.
+56.
 =============================================
-source image: George_Lopez_40408.jpg
+source image: George_Lopez_40453.jpg
 predicted: ['George_Lopez', 'George_Lopez', 'George_Lopez', 'George_Lopez'] 
 true label: George_Lopez
 Result: CORRECT
 =============================================
 
-58.
+57.
 =============================================
-source image: Daniel_Radcliffe_27184.jpg
+source image: Daniel_Radcliffe_27219.jpg
 predicted: ['Daniel_Radcliffe', 'Daniel_Radcliffe', 'Daniel_Radcliffe', 'Daniel_Radcliffe'] 
 true label: Daniel_Radcliffe
 Result: CORRECT
 =============================================
 
-59.
+58.
 =============================================
-source image: Jason_Bateman_51836.jpg
-predicted: ['Jason_Bateman', 'Jason_Bateman', 'Jason_Bateman'] 
+source image: Jason_Bateman_51798.jpg
+predicted: ['Jason_Bateman', 'Jason_Bateman', 'Jason_Bateman', 'Jason_Bateman'] 
 true label: Jason_Bateman
 Result: CORRECT
 =============================================
 
-60.
+59.
 =============================================
-source image: Chris_Klein_21732.jpg
+source image: Chris_Klein_21798.jpg
 predicted: ['Chris_Klein', 'Chris_Klein', 'Chris_Klein', 'Chris_Klein'] 
 true label: Chris_Klein
 Result: CORRECT
 =============================================
 
-61.
+60.
 =============================================
 source image: Channing_Tatum_19237.jpg
 predicted: ['Channing_Tatum', 'Channing_Tatum', 'Channing_Tatum', 'Channing_Tatum'] 
@@ -484,647 +482,647 @@ true label: Channing_Tatum
 Result: CORRECT
 =============================================
 
-62.
+61.
 =============================================
-source image: Edi_Gathegi_35000.jpg
+source image: Edi_Gathegi_35148.jpg
 predicted: ['Edi_Gathegi', 'Edi_Gathegi', 'Edi_Gathegi', 'Edi_Gathegi'] 
 true label: Edi_Gathegi
 Result: CORRECT
 =============================================
 
-63.
+62.
 =============================================
-source image: Alan_Arkin_2794.jpg
+source image: Alan_Arkin_2548.jpg
 predicted: ['Alan_Arkin', 'Alan_Arkin', 'Alan_Arkin', 'Alan_Arkin'] 
 true label: Alan_Arkin
 Result: CORRECT
 =============================================
 
-64.
+63.
 =============================================
-source image: Hector_Elizondo_43642.jpg
+source image: Hector_Elizondo_43817.jpg
 predicted: ['Hector_Elizondo', 'Hector_Elizondo', 'Hector_Elizondo', 'Hector_Elizondo'] 
 true label: Hector_Elizondo
 Result: CORRECT
 =============================================
 
-65.
+64.
 =============================================
-source image: Bernard_Hill_10270.jpg
-predicted: ['Jim_Beaver', 'Bernard_Hill', 'Jim_Beaver', 'Bernard_Hill'] 
+source image: Bernard_Hill_10507.jpg
+predicted: ['Bernard_Hill', 'Bernard_Hill', 'Bernard_Hill', 'Bernard_Hill'] 
 true label: Bernard_Hill
 Result: CORRECT
 =============================================
 
-66.
+65.
 =============================================
-source image: Gene_Hackman_39232.jpg
+source image: Gene_Hackman_39231.jpg
 predicted: ['Gene_Hackman', 'Gene_Hackman', 'Gene_Hackman', 'Gene_Hackman'] 
 true label: Gene_Hackman
 Result: CORRECT
 =============================================
 
-67.
+66.
 =============================================
-source image: Don_Cheadle_33423.jpg
+source image: Don_Cheadle_33153.jpg
 predicted: ['Don_Cheadle', 'Don_Cheadle', 'Don_Cheadle', 'Don_Cheadle'] 
 true label: Don_Cheadle
 Result: CORRECT
 =============================================
 
-68.
+67.
 =============================================
-source image: Christian_Slater_23215.png
+source image: Christian_Slater_22987.jpg
 predicted: ['Christian_Slater', 'Christian_Slater', 'Christian_Slater', 'Christian_Slater'] 
 true label: Christian_Slater
 Result: CORRECT
 =============================================
 
-69.
+68.
 =============================================
-source image: Bernie_Mac_10618.jpg
+source image: Bernie_Mac_10672.jpg
 predicted: ['Bernie_Mac', 'Bernie_Mac', 'Bernie_Mac', 'Bernie_Mac'] 
 true label: Bernie_Mac
 Result: CORRECT
 =============================================
 
-70.
+69.
 =============================================
-source image: Giovanni_Ribisi_41415.jpg
+source image: Giovanni_Ribisi_41337.jpg
 predicted: ['Giovanni_Ribisi', 'Giovanni_Ribisi', 'Giovanni_Ribisi', 'Giovanni_Ribisi'] 
 true label: Giovanni_Ribisi
 Result: CORRECT
 =============================================
 
-71.
+70.
 =============================================
-source image: Billy_Zane_13535.jpg
-predicted: ['Billy_Zane', 'Billy_Zane', 'Billy_Zane', 'Billy_Zane'] 
+source image: Billy_Zane_13425.jpg
+predicted: [] 
 true label: Billy_Zane
-Result: CORRECT
+Result: INCORRECT
 =============================================
 
-72.
+71.
 =============================================
-source image: Billy_Boyd_12763.jpg
+source image: Billy_Boyd_12977.jpg
 predicted: ['Billy_Boyd', 'Billy_Boyd', 'Billy_Boyd', 'Billy_Boyd'] 
 true label: Billy_Boyd
 Result: CORRECT
 =============================================
 
-73.
+72.
 =============================================
-source image: Christopher_Reeve_23803.jpg
-predicted: ['Christopher_Reeve', 'Christopher_Reeve', 'Christopher_Reeve'] 
+source image: Christopher_Reeve_23751.jpg
+predicted: ['Christopher_Reeve', 'Christopher_Reeve', 'Christopher_Reeve', 'Christopher_Reeve'] 
 true label: Christopher_Reeve
 Result: CORRECT
 =============================================
 
-74.
+73.
 =============================================
-source image: Danny_Glover_27869.jpg
+source image: Danny_Glover_28135.png
 predicted: ['Danny_Glover', 'Danny_Glover', 'Danny_Glover', 'Danny_Glover'] 
 true label: Danny_Glover
 Result: CORRECT
 =============================================
 
+74.
+=============================================
+source image: Denzel_Washington_31449.jpg
+predicted: ['Denzel_Washington', 'Denzel_Washington', 'Denzel_Washington', 'Denzel_Washington'] 
+true label: Denzel_Washington
+Result: CORRECT
+=============================================
+
 75.
 =============================================
-source image: Denzel_Washington_31648.jpg
-predicted: ['Bernie_Mac', 'Bernie_Mac', 'Bernie_Mac'] 
-true label: Denzel_Washington
+source image: Hugh_Jackman_44349.jpg
+predicted: [] 
+true label: Hugh_Jackman
 Result: INCORRECT
 =============================================
 
 76.
 =============================================
-source image: Hugh_Jackman_44626.jpg
-predicted: ['Hugh_Jackman', 'Hugh_Jackman', 'Hugh_Jackman', 'Hugh_Jackman'] 
-true label: Hugh_Jackman
-Result: CORRECT
-=============================================
-
-77.
-=============================================
-source image: Jason_Statham_53007.jpg
+source image: Jason_Statham_52838.jpg
 predicted: ['Jason_Statham', 'Jason_Statham', 'Jason_Statham', 'Jason_Statham'] 
 true label: Jason_Statham
 Result: CORRECT
 =============================================
 
+77.
+=============================================
+source image: Alexander_Skarsgård_3645.jpg
+predicted: ['Alexander_Skarsgård', 'Alexander_Skarsgård', 'Alexander_Skarsgård', 'Alexander_Skarsgård'] 
+true label: Alexander_Skarsgård
+Result: CORRECT
+=============================================
+
 78.
 =============================================
-source image: Alexander_Skarsgård_3675.jpg
-predicted: [] 
-true label: Alexander_Skarsgård
-Result: INCORRECT
+source image: David_Wenham_30399.png
+predicted: ['David_Wenham', 'David_Wenham', 'David_Wenham', 'David_Wenham'] 
+true label: David_Wenham
+Result: CORRECT
 =============================================
 
 79.
 =============================================
-source image: David_Wenham_30544.jpg
-predicted: [] 
-true label: David_Wenham
-Result: INCORRECT
-=============================================
-
-80.
-=============================================
-source image: Hugh_Grant_43997.jpg
+source image: Hugh_Grant_44160.jpg
 predicted: ['Hugh_Grant', 'Hugh_Grant', 'Hugh_Grant', 'Hugh_Grant'] 
 true label: Hugh_Grant
 Result: CORRECT
 =============================================
 
-81.
+80.
 =============================================
-source image: Alan_Alda_2316.jpg
-predicted: ['Alan_Alda', 'Alan_Alda'] 
+source image: Alan_Alda_2352.jpg
+predicted: ['Alan_Alda', 'Alan_Alda', 'Alan_Alda', 'Alan_Alda'] 
 true label: Alan_Alda
 Result: CORRECT
 =============================================
 
-82.
+81.
 =============================================
-source image: Ewan_McGregor_37109.jpg
+source image: Ewan_McGregor_37201.jpg
 predicted: ['Ewan_McGregor', 'Ewan_McGregor', 'Ewan_McGregor', 'Ewan_McGregor'] 
 true label: Ewan_McGregor
 Result: CORRECT
 =============================================
 
-83.
+82.
 =============================================
-source image: Jake_Weber_48768.jpg
+source image: Jake_Weber_48886.jpg
 predicted: ['Jake_Weber', 'Jake_Weber', 'Jake_Weber', 'Jake_Weber'] 
 true label: Jake_Weber
 Result: CORRECT
 =============================================
 
-84.
+83.
 =============================================
-source image: Dermot_Mulroney_31831.jpg
+source image: Dermot_Mulroney_31782.jpg
 predicted: ['Dermot_Mulroney', 'Dermot_Mulroney', 'Dermot_Mulroney', 'Dermot_Mulroney'] 
 true label: Dermot_Mulroney
 Result: CORRECT
 =============================================
 
-85.
+84.
 =============================================
-source image: Ian_McKellen_45590.jpg
+source image: Ian_McKellen_45740.jpg
 predicted: ['Ian_McKellen', 'Ian_McKellen', 'Ian_McKellen', 'Ian_McKellen'] 
 true label: Ian_McKellen
 Result: CORRECT
 =============================================
 
-86.
+85.
 =============================================
-source image: Jason_Behr_52153.jpg
+source image: Jason_Behr_52220.jpg
 predicted: ['Jason_Behr', 'Jason_Behr', 'Jason_Behr', 'Jason_Behr'] 
 true label: Jason_Behr
 Result: CORRECT
 =============================================
 
-87.
+86.
 =============================================
-source image: Jay_Baruchel_53851.jpg
-predicted: ['Jay_Baruchel', 'Jay_Baruchel', 'Jay_Baruchel', 'Jay_Baruchel'] 
+source image: Jay_Baruchel_53888.jpg
+predicted: ['Jay_Baruchel'] 
 true label: Jay_Baruchel
 Result: CORRECT
 =============================================
 
-88.
+87.
 =============================================
-source image: Ashton_Kutcher_7976.jpg
+source image: Ashton_Kutcher_7838.jpg
 predicted: ['Ashton_Kutcher', 'Ashton_Kutcher', 'Ashton_Kutcher', 'Ashton_Kutcher'] 
 true label: Ashton_Kutcher
 Result: CORRECT
 =============================================
 
+88.
+=============================================
+source image: Casey_Affleck_18344.jpg
+predicted: [] 
+true label: Casey_Affleck
+Result: INCORRECT
+=============================================
+
 89.
 =============================================
-source image: Casey_Affleck_18473.jpg
-predicted: ['Casey_Affleck', 'Casey_Affleck', 'Casey_Affleck', 'Casey_Affleck'] 
-true label: Casey_Affleck
+source image: Arnold_Schwarzenegger_7081.jpg
+predicted: ['Arnold_Schwarzenegger', 'Arnold_Schwarzenegger', 'Arnold_Schwarzenegger'] 
+true label: Arnold_Schwarzenegger
 Result: CORRECT
 =============================================
 
 90.
 =============================================
-source image: Arnold_Schwarzenegger_7054.jpg
-predicted: ['Arnold_Schwarzenegger', 'Arnold_Schwarzenegger', 'Arnold_Schwarzenegger', 'Arnold_Schwarzenegger'] 
-true label: Arnold_Schwarzenegger
-Result: CORRECT
-=============================================
-
-91.
-=============================================
-source image: Adrien_Brody_1623.jpg
+source image: Adrien_Brody_1657.jpg
 predicted: ['Adrien_Brody', 'Adrien_Brody', 'Adrien_Brody', 'Adrien_Brody'] 
 true label: Adrien_Brody
 Result: CORRECT
 =============================================
 
-92.
+91.
 =============================================
-source image: Harrison_Ford_42501.jpg
-predicted: ['Harrison_Ford'] 
+source image: Harrison_Ford_42377.jpg
+predicted: ['Harrison_Ford', 'Harrison_Ford', 'Harrison_Ford', 'Harrison_Ford'] 
 true label: Harrison_Ford
 Result: CORRECT
 =============================================
 
-93.
+92.
 =============================================
-source image: Jeffrey_Tambor_55451.jpg
+source image: Jeffrey_Tambor_55261.jpg
 predicted: ['Jeffrey_Tambor', 'Jeffrey_Tambor', 'Jeffrey_Tambor', 'Jeffrey_Tambor'] 
 true label: Jeffrey_Tambor
 Result: CORRECT
 =============================================
 
-94.
+93.
 =============================================
-source image: Cam_Gigandet_17574.jpg
-predicted: ['Cam_Gigandet', 'Cam_Gigandet', 'Cam_Gigandet', 'Cam_Gigandet'] 
+source image: Cam_Gigandet_17680.jpg
+predicted: [] 
 true label: Cam_Gigandet
-Result: CORRECT
+Result: INCORRECT
 =============================================
 
-95.
+94.
 =============================================
-source image: Bill_Cosby_10948.jpg
+source image: Bill_Cosby_11147.jpg
 predicted: ['Bill_Cosby', 'Bill_Cosby', 'Bill_Cosby', 'Bill_Cosby'] 
 true label: Bill_Cosby
 Result: CORRECT
 =============================================
 
-96.
+95.
 =============================================
-source image: Jean_Reno_54247.jpg
+source image: Jean_Reno_54257.jpg
 predicted: ['Jean_Reno', 'Jean_Reno', 'Jean_Reno', 'Jean_Reno'] 
 true label: Jean_Reno
 Result: CORRECT
 =============================================
 
-97.
+96.
 =============================================
-source image: Jeremy_Irons_56102.jpg
+source image: Jeremy_Irons_56003.jpg
 predicted: ['Jeremy_Irons', 'Jeremy_Irons', 'Jeremy_Irons', 'Jeremy_Irons'] 
 true label: Jeremy_Irons
 Result: CORRECT
 =============================================
 
-98.
+97.
 =============================================
-source image: Alan_Rickman_3096.jpg
+source image: Alan_Rickman_3040.jpg
 predicted: ['Alan_Rickman', 'Alan_Rickman', 'Alan_Rickman', 'Alan_Rickman'] 
 true label: Alan_Rickman
 Result: CORRECT
 =============================================
 
-99.
+98.
 =============================================
-source image: Daniel_Craig_26776.jpg
-predicted: ['Daniel_Craig', 'Daniel_Craig', 'Daniel_Craig', 'Daniel_Craig'] 
+source image: Daniel_Craig_26779.jpg
+predicted: ['Danny_Trejo'] 
 true label: Daniel_Craig
-Result: CORRECT
+Result: INCORRECT
 =============================================
 
-100.
+99.
 =============================================
-source image: Cary_Elwes_18176.jpg
+source image: Cary_Elwes_17935.jpg
 predicted: ['Cary_Elwes', 'Cary_Elwes', 'Cary_Elwes', 'Cary_Elwes'] 
 true label: Cary_Elwes
 Result: CORRECT
 =============================================
 
-101.
+100.
 =============================================
-source image: Ed_Harris_34563.jpg
+source image: Ed_Harris_34655.jpg
 predicted: ['Ed_Harris', 'Ed_Harris', 'Ed_Harris', 'Ed_Harris'] 
 true label: Ed_Harris
 Result: CORRECT
 =============================================
 
-102.
+101.
 =============================================
-source image: Jason_Biggs_52735.jpg
+source image: Jason_Biggs_52565.jpg
 predicted: ['Jason_Biggs', 'Jason_Biggs', 'Jason_Biggs', 'Jason_Biggs'] 
 true label: Jason_Biggs
 Result: CORRECT
 =============================================
 
-103.
+102.
 =============================================
-source image: Bill_Nighy_11984.jpg
+source image: Bill_Nighy_12215.jpg
 predicted: ['Bill_Nighy', 'Bill_Nighy', 'Bill_Nighy', 'Bill_Nighy'] 
 true label: Bill_Nighy
 Result: CORRECT
 =============================================
 
-104.
+103.
 =============================================
-source image: Andy_Richter_5377.jpg
+source image: Andy_Richter_5310.jpg
 predicted: ['Andy_Richter', 'Andy_Richter', 'Andy_Richter', 'Andy_Richter'] 
 true label: Andy_Richter
 Result: CORRECT
 =============================================
 
-105.
+104.
 =============================================
-source image: Jaden_Smith_48170.jpg
+source image: Jaden_Smith_48221.jpg
 predicted: ['Jaden_Smith', 'Jaden_Smith', 'Jaden_Smith', 'Jaden_Smith'] 
 true label: Jaden_Smith
 Result: CORRECT
 =============================================
 
-106.
+105.
 =============================================
-source image: Chris_Kattan_21330.jpg
+source image: Chris_Kattan_21486.jpg
 predicted: ['Chris_Kattan', 'Chris_Kattan', 'Chris_Kattan', 'Chris_Kattan'] 
 true label: Chris_Kattan
 Result: CORRECT
 =============================================
 
-107.
+106.
 =============================================
-source image: Jean-Claude_Van_Damme_54531.jpg
+source image: Jean-Claude_Van_Damme_54606.jpg
 predicted: ['Jean-Claude_Van_Damme', 'Jean-Claude_Van_Damme', 'Jean-Claude_Van_Damme', 'Jean-Claude_Van_Damme'] 
 true label: Jean-Claude_Van_Damme
 Result: CORRECT
 =============================================
 
-108.
+107.
 =============================================
-source image: Ioan_Gruffudd_46424.jpg
+source image: Ioan_Gruffudd_46285.jpg
 predicted: ['Ioan_Gruffudd', 'Ioan_Gruffudd', 'Ioan_Gruffudd', 'Ioan_Gruffudd'] 
 true label: Ioan_Gruffudd
 Result: CORRECT
 =============================================
 
-109.
+108.
 =============================================
-source image: Bill_Murray_11623.jpg
+source image: Bill_Murray_11610.jpg
 predicted: ['Bill_Murray', 'Bill_Murray', 'Bill_Murray', 'Bill_Murray'] 
 true label: Bill_Murray
 Result: CORRECT
 =============================================
 
-110.
+109.
 =============================================
-source image: Jake_Gyllenhaal_48510.jpg
+source image: Jake_Gyllenhaal_48485.jpg
 predicted: ['Jake_Gyllenhaal', 'Jake_Gyllenhaal', 'Jake_Gyllenhaal', 'Jake_Gyllenhaal'] 
 true label: Jake_Gyllenhaal
 Result: CORRECT
 =============================================
 
-111.
+110.
 =============================================
-source image: J.K._Simmons_46737.jpg
+source image: J.K._Simmons_46623.jpg
 predicted: ['J.K._Simmons', 'J.K._Simmons', 'J.K._Simmons', 'J.K._Simmons'] 
 true label: J.K._Simmons
 Result: CORRECT
 =============================================
 
-112.
+111.
 =============================================
-source image: Ian_Holm_45245.jpg
+source image: Ian_Holm_45182.jpg
 predicted: ['Ian_Holm', 'Ian_Holm', 'Ian_Holm', 'Ian_Holm'] 
 true label: Ian_Holm
 Result: CORRECT
 =============================================
 
-113.
+112.
 =============================================
-source image: Jet_Li_57264.jpg
+source image: Jet_Li_57362.jpg
 predicted: ['Jet_Li', 'Jet_Li', 'Jet_Li', 'Jet_Li'] 
 true label: Jet_Li
 Result: CORRECT
 =============================================
 
-114.
+113.
 =============================================
-source image: Clive_Owen_24476.jpg
+source image: Clive_Owen_24563.jpg
 predicted: ['Clive_Owen', 'Clive_Owen', 'Clive_Owen', 'Clive_Owen'] 
 true label: Clive_Owen
 Result: CORRECT
 =============================================
 
-115.
+114.
 =============================================
-source image: Charlie_Day_19742.jpg
+source image: Charlie_Day_19681.jpg
 predicted: ['Charlie_Day', 'Charlie_Day', 'Charlie_Day', 'Charlie_Day'] 
 true label: Charlie_Day
 Result: CORRECT
 =============================================
 
-116.
+115.
 =============================================
-source image: Eric_Dane_36533.jpg
+source image: Eric_Dane_36536.jpg
 predicted: ['Eric_Dane', 'Eric_Dane', 'Eric_Dane', 'Eric_Dane'] 
 true label: Eric_Dane
 Result: CORRECT
 =============================================
 
-117.
+116.
 =============================================
-source image: Jack_Nicholson_46805.jpg
-predicted: ['Jack_Nicholson', 'Jack_Nicholson', 'Jack_Nicholson', 'Amaury_Nolasco'] 
+source image: Jack_Nicholson_46834.jpg
+predicted: ['Jack_Nicholson', 'Jack_Nicholson', 'Jack_Nicholson', 'Jack_Nicholson'] 
 true label: Jack_Nicholson
 Result: CORRECT
 =============================================
 
-118.
+117.
 =============================================
-source image: Bruce_Willis_16238.jpg
+source image: Bruce_Willis_16294.jpg
 predicted: ['Bruce_Willis', 'Bruce_Willis', 'Bruce_Willis', 'Bruce_Willis'] 
 true label: Bruce_Willis
 Result: CORRECT
 =============================================
 
-119.
+118.
 =============================================
-source image: Desmond_Harrington_32270.jpg
-predicted: ['Desmond_Harrington', 'Desmond_Harrington', 'Desmond_Harrington', 'Desmond_Harrington'] 
+source image: Desmond_Harrington_32224.jpg
+predicted: [] 
 true label: Desmond_Harrington
-Result: CORRECT
+Result: INCORRECT
 =============================================
 
-120.
+119.
 =============================================
-source image: Dominic_Monaghan_33055.jpg
+source image: Dominic_Monaghan_32853.jpg
 predicted: ['Dominic_Monaghan', 'Dominic_Monaghan', 'Dominic_Monaghan', 'Dominic_Monaghan'] 
 true label: Dominic_Monaghan
 Result: CORRECT
 =============================================
 
-121.
+120.
 =============================================
-source image: Geoffrey_Rush_39793.jpg
+source image: Geoffrey_Rush_39867.jpg
 predicted: ['Geoffrey_Rush', 'Geoffrey_Rush', 'Geoffrey_Rush', 'Geoffrey_Rush'] 
 true label: Geoffrey_Rush
 Result: CORRECT
 =============================================
 
-122.
+121.
 =============================================
-source image: Danny_Masterson_28385.jpg
+source image: Danny_Masterson_28441.jpg
 predicted: ['Danny_Masterson', 'Danny_Masterson', 'Danny_Masterson', 'Danny_Masterson'] 
 true label: Danny_Masterson
 Result: CORRECT
 =============================================
 
-123.
+122.
 =============================================
-source image: Andy_Garcia_5254.jpg
-predicted: [] 
+source image: Andy_Garcia_5116.jpg
+predicted: ['Andy_Garcia', 'Andy_Garcia', 'Andy_Garcia', 'Andy_Garcia'] 
 true label: Andy_Garcia
-Result: INCORRECT
+Result: CORRECT
 =============================================
 
-124.
+123.
 =============================================
-source image: Hugo_Weaving_44628.jpg
+source image: Hugo_Weaving_44796.jpg
 predicted: ['Hugo_Weaving', 'Hugo_Weaving', 'Hugo_Weaving', 'Hugo_Weaving'] 
 true label: Hugo_Weaving
 Result: CORRECT
 =============================================
 
-125.
+124.
 =============================================
-source image: David_Duchovny_29564.jpg
+source image: David_Duchovny_29575.jpg
 predicted: ['David_Duchovny', 'David_Duchovny', 'David_Duchovny', 'David_Duchovny'] 
 true label: David_Duchovny
 Result: CORRECT
 =============================================
 
-126.
+125.
 =============================================
-source image: Brad_Garrett_13914.png
+source image: Brad_Garrett_13675.jpg
 predicted: ['Brad_Garrett', 'Brad_Garrett', 'Brad_Garrett', 'Brad_Garrett'] 
 true label: Brad_Garrett
 Result: CORRECT
 =============================================
 
-127.
+126.
 =============================================
-source image: Hank_Azaria_42138.jpg
+source image: Hank_Azaria_42008.jpg
 predicted: ['Hank_Azaria', 'Hank_Azaria', 'Hank_Azaria', 'Hank_Azaria'] 
 true label: Hank_Azaria
 Result: CORRECT
 =============================================
 
-128.
+127.
 =============================================
-source image: Ben_Affleck_8809.jpg
+source image: Ben_Affleck_8681.jpg
 predicted: ['Ben_Affleck', 'Ben_Affleck', 'Ben_Affleck', 'Ben_Affleck'] 
 true label: Ben_Affleck
 Result: CORRECT
 =============================================
 
-129.
+128.
 =============================================
-source image: Billy_Burke_13046.jpg
+source image: Billy_Burke_13049.jpg
 predicted: ['Billy_Burke', 'Billy_Burke', 'Billy_Burke', 'Billy_Burke'] 
 true label: Billy_Burke
 Result: CORRECT
 =============================================
 
-130.
+129.
 =============================================
-source image: Gerard_Butler_40717.jpg
+source image: Gerard_Butler_40974.jpg
 predicted: ['Gerard_Butler', 'Gerard_Butler', 'Gerard_Butler', 'Gerard_Butler'] 
 true label: Gerard_Butler
 Result: CORRECT
 =============================================
 
-131.
+130.
 =============================================
-source image: Chris_Rock_22463.jpg
+source image: Chris_Rock_22284.jpg
 predicted: ['Chris_Rock', 'Chris_Rock', 'Chris_Rock', 'Chris_Rock'] 
 true label: Chris_Rock
 Result: CORRECT
 =============================================
 
-132.
+131.
 =============================================
-source image: Colin_Firth_25312.jpg
+source image: Colin_Firth_25134.jpg
 predicted: ['Colin_Firth', 'Colin_Firth', 'Colin_Firth', 'Colin_Firth'] 
 true label: Colin_Firth
 Result: CORRECT
 =============================================
 
-133.
+132.
 =============================================
-source image: Dwayne_Johnson_34110.jpg
+source image: Dwayne_Johnson_33949.jpg
 predicted: ['Dwayne_Johnson', 'Dwayne_Johnson', 'Dwayne_Johnson', 'Dwayne_Johnson'] 
 true label: Dwayne_Johnson
 Result: CORRECT
 =============================================
 
-134.
+133.
 =============================================
-source image: Adam_Sandler_1099.jpg
+source image: Adam_Sandler_1173.jpg
 predicted: ['Adam_Sandler', 'Adam_Sandler', 'Adam_Sandler', 'Adam_Sandler'] 
 true label: Adam_Sandler
 Result: CORRECT
 =============================================
 
-135.
+134.
 =============================================
-source image: Diego_Luna_32575.jpg
+source image: Diego_Luna_32720.jpg
 predicted: ['Diego_Luna', 'Diego_Luna', 'Diego_Luna', 'Diego_Luna'] 
 true label: Diego_Luna
 Result: CORRECT
 =============================================
 
-136.
+135.
 =============================================
-source image: Brad_Pitt_14343.jpg
+source image: Brad_Pitt_14132.jpg
 predicted: ['Brad_Pitt', 'Brad_Pitt', 'Brad_Pitt', 'Brad_Pitt'] 
 true label: Brad_Pitt
 Result: CORRECT
 =============================================
 
-137.
+136.
 =============================================
-source image: Jerry_Seinfeld_56836.jpg
+source image: Jerry_Seinfeld_56595.jpg
 predicted: ['Jerry_Seinfeld', 'Jerry_Seinfeld', 'Jerry_Seinfeld', 'Jerry_Seinfeld'] 
 true label: Jerry_Seinfeld
 Result: CORRECT
 =============================================
 
-138.
+137.
 =============================================
-source image: James_Marsden_50267.jpg
+source image: James_Marsden_50016.jpg
 predicted: ['James_Marsden', 'James_Marsden', 'James_Marsden', 'James_Marsden'] 
 true label: James_Marsden
 Result: CORRECT
 =============================================
 
-139.
+138.
 =============================================
-source image: Hal_Holbrook_41770.jpg
+source image: Hal_Holbrook_41709.jpg
 predicted: ['Hal_Holbrook', 'Hal_Holbrook', 'Hal_Holbrook', 'Hal_Holbrook'] 
 true label: Hal_Holbrook
 Result: CORRECT
 =============================================
 
-140.
+139.
 =============================================
-source image: Bruce_Greenwood_15614.jpg
+source image: Bruce_Greenwood_15738.jpg
 predicted: ['Bruce_Greenwood', 'Bruce_Greenwood', 'Bruce_Greenwood', 'Bruce_Greenwood'] 
 true label: Bruce_Greenwood
 Result: CORRECT
 =============================================
 
-141.
+140.
 =============================================
-source image: Jensen_Ackles_55552.jpg
-predicted: ['Jensen_Ackles'] 
+source image: Jensen_Ackles_55785.jpg
+predicted: ['Jensen_Ackles', 'Jensen_Ackles', 'Jensen_Ackles', 'Jensen_Ackles'] 
 true label: Jensen_Ackles
 Result: CORRECT
 =============================================
 
-142.
+141.
 =============================================
 source image: Freddy_Prinze_Jr._37567.jpg
 predicted: [] 
@@ -1132,60 +1130,60 @@ true label: Freddy_Prinze_Jr.
 Result: INCORRECT
 =============================================
 
-143.
+142.
 =============================================
-source image: Freddy_Rodríguez_37976.jpg
+source image: Freddy_Rodríguez_37850.jpg
 predicted: ['Freddy_Rodríguez', 'Freddy_Rodríguez', 'Freddy_Rodríguez', 'Freddy_Rodríguez'] 
 true label: Freddy_Rodríguez
 Result: CORRECT
 =============================================
 
+143.
+=============================================
+source image: James_Franco_49629.jpg
+predicted: ['James_Franco', 'James_Franco', 'James_Franco'] 
+true label: James_Franco
+Result: CORRECT
+=============================================
+
 144.
 =============================================
-source image: James_Franco_49858.jpg
-predicted: ['James_Franco', 'James_Franco', 'James_Franco', 'James_Franco'] 
-true label: James_Franco
+source image: Clint_Eastwood_23990.jpg
+predicted: ['Clint_Eastwood', 'Clint_Eastwood', 'Clint_Eastwood', 'Clint_Eastwood'] 
+true label: Clint_Eastwood
 Result: CORRECT
 =============================================
 
 145.
 =============================================
-source image: Clint_Eastwood_24137.jpg
-predicted: [] 
-true label: Clint_Eastwood
-Result: INCORRECT
-=============================================
-
-146.
-=============================================
-source image: Chris_Evans_20921.jpg
-predicted: ['Colin_Farrell', 'Chris_Evans'] 
+source image: Chris_Evans_20989.jpg
+predicted: ['Chris_Evans', 'Dermot_Mulroney'] 
 true label: Chris_Evans
 Result: CORRECT
 =============================================
 
-147.
+146.
 =============================================
-source image: James_McAvoy_50616.jpg
+source image: James_McAvoy_50465.jpg
 predicted: ['James_McAvoy', 'James_McAvoy', 'James_McAvoy', 'James_McAvoy'] 
 true label: James_McAvoy
 Result: CORRECT
 =============================================
 
-148.
+147.
 =============================================
-source image: Hayden_Christensen_42885.jpg
+source image: Hayden_Christensen_42915.jpg
 predicted: ['Hayden_Christensen', 'Hayden_Christensen', 'Hayden_Christensen', 'Hayden_Christensen'] 
 true label: Hayden_Christensen
 Result: CORRECT
 =============================================
 
-149.
+148.
 =============================================
-source image: Arnold_Vosloo_7503.jpg
+source image: Arnold_Vosloo_7567.jpg
 predicted: ['Arnold_Vosloo', 'Arnold_Vosloo', 'Arnold_Vosloo', 'Arnold_Vosloo'] 
 true label: Arnold_Vosloo
 Result: CORRECT
 =============================================
 
-Accuracy: 136/149 (91%)
+Accuracy: 138/148 (93%)
