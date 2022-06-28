@@ -106,7 +106,7 @@ def get_an_image_from_each_class(source_directory: str) -> list:
         if not files: continue
 
         random_file = random.choice(files)
-        if not random_file.endswith('.pkl'):
+        if not random_file.endswith('.pkl'): # ignore serialized file containing face representations
             selected_images.append(str(root) + '/' + random_file)
 
     return selected_images
