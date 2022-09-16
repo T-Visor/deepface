@@ -2,3 +2,4 @@ tensorflow
 deepface
 tqdm
 lightgbm
+matplotlib
