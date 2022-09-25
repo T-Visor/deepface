@@ -8,6 +8,11 @@ Uses the Deepface library in Python to support batch facial recognition. Top-K a
 pip3 install -r requirements.txt
 ```
 
+For conda users:
+```bash
+conda env create -f environment.yml
+```
+
 ## Server Environment
 
 ```
