@@ -16,13 +16,17 @@ def main():
     """
     arguments = parse_command_line_arguments()
 
+    # Assign values from command-line arguments.
     source_directory = arguments.source_directory[0]
     database_path = arguments.database_path[0]
     k_value = arguments.k_value[0]
     model = arguments.model[0]
     output_file = arguments.output_file[0]
 
+    # Select a random face photo from each identity (class), since
+    # each identity can have multiple photos of themselves.
     results = get_an_image_from_each_class(source_directory)
+
     source_images_count = len(results)
     correct_predictions = 0
 
@@ -39,6 +43,7 @@ def main():
     out_file.write('-------------------------------\n')
     out_file.close()
 
+    # Repeatedly perform face recognition for each source image.
     count = 1
     with tqdm(total=source_images_count) as progress_bar:
         for item in results:
@@ -46,11 +51,13 @@ def main():
             out_file.write('\n' + str(count) + '.\n')
             out_file.close()
 
-            correct_predictions += subprocess.call([sys.executable, 'detect-face.py', '-s', item, '-d', database_path, '-k', str(k_value), '-m', model, '-o', output_file])
+            correct_predictions += subprocess.call([sys.executable, 'identify-face.py', '-s', item, '-d', database_path, '-k', str(k_value), '-m', model, '-o', output_file])
 
             count += 1
             progress_bar.update(1)
 
+    # Calculate the face recognition accuracy and write the percentage to the
+    # end of the output file.
     out_file = open(output_file, mode='a')
     percentage = round(100 * float(correct_predictions) / float(source_images_count))
     percentage = str(percentage) + '%'
