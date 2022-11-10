@@ -39,6 +39,12 @@ options:
                         Output file to write accuracy results to (Ex. "output.txt")
 ```
 
+## Sample Inference On Validation Images
+
+```
+$ python3 run.py -s sample-images/5-celebrity-validation/ -d sample-images/5-celebrity-training/ -k 5 -m SFace -o baseline-score.txt
+```
+
 ## Sample Inference On Fawkes Perturbed Images
 
 ```
