@@ -95,7 +95,7 @@ def parse_command_line_arguments() -> argparse.ArgumentParser:
     parser.add_argument('-k', '--k_value', type=int, nargs=1, required=True,
                         help='Determines the value used for Top-K Accuracy.')
 
-    parser.add_argument('-m', '--model', choices=['VGG-Face', 'Facenet512', 'ArcFace', 'Ensemble'], nargs=1, required=True,
+    parser.add_argument('-m', '--model', choices=['VGG-Face', 'Facenet512', 'ArcFace', 'SFace', 'Ensemble'], nargs=1, required=True,
                         help='Face recognition model to use.')
 
     parser.add_argument('-o', '--output_file', nargs=1, required=True,
